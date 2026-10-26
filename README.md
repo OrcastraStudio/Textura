@@ -2,7 +2,7 @@
 
 An author-led multilingual writing toolkit with AI-guided workflows, local version history, and traceable evidence for essays, poetry, fiction, and game reviews.
 
-**License: [MIT](LICENSE) · Copyright (c) 2026 OrcastraStudio.** This is the early 0.1.2 source edition, Git publication preparation revision 2. Repository: [OrcastraStudio/Textura](https://github.com/OrcastraStudio/Textura). A formal release tag and support commitments remain to be decided; see [release decisions](PENDING_DECISIONS.md).
+**License: [MIT](LICENSE) · Copyright (c) 2026 OrcastraStudio.** This is the early 0.1.2 source edition (`git-publication-r2`). The public [OrcastraStudio/Textura repository](https://github.com/OrcastraStudio/Textura) was first published and verified on 2026-10-26 from commit [0e320cc](https://github.com/OrcastraStudio/Textura/commit/0e320cc2fe3454c7f6768e1bad81a80d05a37054), on `main`. As of that date, no release tag or published GitHub Release exists. Formal release naming and support commitments remain open; see [release decisions](PENDING_DECISIONS.md).
 
 ## For readers
 
@@ -59,4 +59,4 @@ This bundle contains program definitions, generic documentation, blank templates
 
 See [publishing steps](PUBLISHING.md), [repository description](REPOSITORY_DESCRIPTION.md), [release description](RELEASE_DESCRIPTION.md), [contribution guidance](CONTRIBUTING.md), [security reporting](SECURITY.md), [conduct draft](CODE_OF_CONDUCT.md), [support](SUPPORT.md), [third-party notice](THIRD_PARTY_NOTICES.md) and [changelog](CHANGELOG.md).
 
-All 20 required component history directories are retained in Git. Configuration and Governance also contain public snapshots preserved before the MIT decision was applied. Git attributes preserve content bytes for existing seals. See [Git verification](GIT_VALIDATION.md). Local preparation does not itself upload code or create a GitHub release.
+All 20 required component history directories are retained in Git. Configuration and Governance contain public snapshots preserved before the MIT decision; Governance also preserves the state before this publication-status update. Git attributes preserve content bytes for existing seals. See [publication and Git verification](GIT_VALIDATION.md). The public source repository is available; a formal GitHub Release remains a separate pending step.

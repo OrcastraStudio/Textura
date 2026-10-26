@@ -1,5 +1,11 @@
 # Source edition changes — Textura 0.1.2
 
+## Public source publication and maintenance (2026-10-26)
+
+The first public source publication was completed and verified on `main` at [OrcastraStudio/Textura](https://github.com/OrcastraStudio/Textura), starting with commit [0e320cc](https://github.com/OrcastraStudio/Textura/commit/0e320cc2fe3454c7f6768e1bad81a80d05a37054). MIT and OrcastraStudio attribution are in effect. No tag or published GitHub Release exists as of the status check; formal release decisions remain open.
+
+This maintenance update synchronizes publication-status documents, preserves Governance's prior definitions in `history/v0002`, and refreshes its seal and the outer manifest. It retains the `git-publication-r2` edition identifier and changes no executable workflow. See [publication verification](GIT_VALIDATION.md) and [release decisions](PENDING_DECISIONS.md).
+
 ## Git publication preparation revision 2 (2026-10-26)
 
 Current edition identifier: git-publication-r2. MIT selected by the author with copyright attribution to OrcastraStudio. README now explains the toolkit to readers, includes game reviews and distinguishes software licensing from independent creative works. Configuration and Governance definitions were snapshotted before applying the decision. No executable writing workflow changed. See [changelog](CHANGELOG.md), [license scope](LICENSE_STATUS.md) and [release decisions](PENDING_DECISIONS.md).

@@ -1,6 +1,6 @@
 # Publishing Textura with Git
 
-The selected public repository is [OrcastraStudio/Textura](https://github.com/OrcastraStudio/Textura). This guide documents the upload procedure; it is not a receipt that an upload or release has occurred. Git tracks versions locally; GitHub hosts the shared repository.
+The [OrcastraStudio/Textura repository](https://github.com/OrcastraStudio/Textura) is public. Its first source publication was completed and verified on 2026-10-26 on `main`, starting at commit [0e320cc](https://github.com/OrcastraStudio/Textura/commit/0e320cc2fe3454c7f6768e1bad81a80d05a37054); see [verification](GIT_VALIDATION.md). No tag or published GitHub Release exists as of that check. This guide covers subsequent source maintenance and a future formal release.
 
 ## 1. Select the publication scope
 
@@ -10,7 +10,7 @@ Only this sanitized source bundle belongs in the repository. ZIP and SHA256SUMS.
 
 ## 2. Confirm the recorded release identity
 
-The author selected MIT, copyright attribution OrcastraStudio, and the public repository OrcastraStudio/Textura. The grant is in [LICENSE](LICENSE); [LICENSE_STATUS.md](LICENSE_STATUS.md) explains its scope. This is Git preparation revision 2; a formal release tag is still undecided.
+The author selected MIT, copyright attribution OrcastraStudio, and the public repository OrcastraStudio/Textura. The grant is in [LICENSE](LICENSE); [LICENSE_STATUS.md](LICENSE_STATUS.md) explains its scope. The published source retains the `git-publication-r2` edition identifier; a formal release tag is still undecided.
 
 License metadata and status documents were updated consistently after preserving Configuration and Governance snapshots. Future component edits require a snapshot before editing, then affected-component seals and validation. Keep remaining support and community-policy decisions explicit in PENDING_DECISIONS.md.
 
@@ -30,37 +30,39 @@ After deliberate release edits, use Maintainer/release.py refresh, then verify. 
 
 ## 4. Confirm the destination and authentication
 
-The author has created the public repository on GitHub without initial files. Confirm that it is still the intended destination before the first upload. README, LICENSE and .gitignore are supplied locally. Authenticate using GitHub's supported method. Never put access tokens in repository URLs or project files.
+The public repository already contains the initial source publication on `main`. Use its existing publication working copy and inspect `git status`, `git remote -v` and the latest remote `main` before maintenance. Preserve the existing repository-local author identity and use the authenticated GitHub connection. Never put access tokens in repository URLs or project files.
 
 Official reference: [adding existing source to GitHub](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github).
 
-## 5. Initialize, inspect and upload
+## 5. Inspect, commit and synchronize maintenance
 
-Run these commands in the prepared repository root, not in its Textura subdirectory. If initialization or staging was already completed, inspect the existing status rather than repeating setup blindly.
+Run these commands in the existing publication repository root, not in its Textura subdirectory. Initial Git setup and the `origin` remote are already in place.
 
-    git init -b main
-    git status --short
-    git add --dry-run .
-    git add .
+    git status --short --branch
+    git remote -v
+    git ls-remote --heads origin main
+    git diff --stat
+    git diff
+
+If the remote has advanced, inspect and integrate its changes before continuing. After the checks in section 3, stage only the reviewed maintenance files, affected component snapshots/seals and refreshed MANIFEST.json. Then inspect:
+
     git diff --cached --stat
     git diff --cached
     git ls-files
 
-Inspect the staged files. Runtime records, manuscripts, sources, secrets, private presets and local reports must not be staged. .gitignore prevents common accidental additions; it does not remove already tracked files. Configure the author name OrcastraStudio and the author's exact GitHub-provided no-reply email locally for this repository. Copy that email from GitHub Settings > Emails; do not guess it or substitute a private registration email unintentionally. See [GitHub commit email guidance](https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address).
+Runtime records, manuscripts, sources, secrets, private presets and local reports must not be staged. .gitignore prevents common accidental additions; it does not remove already tracked files. Keep the configured author name OrcastraStudio and the author's verified GitHub no-reply email. Do not guess an email or substitute a private registration address; see [GitHub commit email guidance](https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address).
 
-Then:
+Commit the reviewed change with a descriptive message, then synchronize the authorized update:
 
-    git commit -m "Publish Textura source under MIT"
-    git remote add origin https://github.com/OrcastraStudio/Textura.git
-    git push -u origin main
+    git push origin main
 
-If origin is already configured, inspect git remote -v instead of adding it again. Do not use force-push to fix an unexpected conflict; inspect the remote history first.
+Verify that local and remote `main` match after the push. Do not use force-push to fix an unexpected conflict; inspect the remote history first.
 
 ## 6. Configure the project page and release
 
 Copy the short text and topics from REPOSITORY_DESCRIPTION.md. Review and adopt community policies; configure the private reporting route described in SECURITY.md. Issue templates are provided as portable copy-and-paste documents; do not assume a host has enabled a template chooser.
 
-Create a draft release from the intended tested commit. Choose a tag; v0.1.2-rc.1 is only a suggested candidate identifier. Use RELEASE_DESCRIPTION.md as the body and mark a candidate as a pre-release. Attach the matching archive and checksums. Check licensing, pending decisions and the exact uploaded files before publishing the draft.
+Formal release creation remains pending and requires a maintainer decision. When authorized, create a draft release from the intended tested commit. Choose a tag; v0.1.2-rc.1 is only a suggested candidate identifier. Use RELEASE_DESCRIPTION.md as the body and mark a candidate as a pre-release. Attach the matching archive and checksums. Check licensing, pending decisions and the exact uploaded files before publishing the draft.
 
 Official references: [GitHub releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository), [private reporting](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/configure-for-a-repository).
 

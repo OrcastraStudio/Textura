@@ -1,6 +1,20 @@
-# Git publication preparation validation
+# Publication and Git validation
 
-## Revision 2 — 2026-10-26
+## Public repository verification — 2026-10-26
+
+- GitHub's repository API confirms [OrcastraStudio/Textura](https://github.com/OrcastraStudio/Textura) is Public, with default branch `main` and detected license MIT. LICENSE names Copyright (c) 2026 OrcastraStudio.
+- The first published commit is [0e320cc](https://github.com/OrcastraStudio/Textura/commit/0e320cc2fe3454c7f6768e1bad81a80d05a37054) (`0e320cc2fe3454c7f6768e1bad81a80d05a37054`). Before this status-maintenance update, local HEAD and live remote `main` both matched it, and the publication working copy was clean.
+- The baseline's 183 manifest entries matched their file hashes and sizes; the 184 Git-tracked paths matched those entries plus MANIFEST.json.
+- GitHub's public Releases API returned no published releases, and the remote had no tags. Public source publication is complete; a formal GitHub Release remains pending.
+- These checks verify the publication baseline. The preparation evidence below retains its original scope and does not claim a new hosted-checkout test run. Subsequent maintenance commits extend this history; the initial commit above is not a permanent claim about the current HEAD.
+
+## Publication-status maintenance validation — 2026-10-26
+
+Governance's definitions at the publication baseline were preserved byte-for-byte in history/v0002 before updating its current status documents. The current Governance seal and outer manifest were refreshed. The maintained inventory contains 197 public file entries, or 198 files including MANIFEST.json; historical preparation counts below still describe their original revisions.
+
+The local acceptance run passed 63 tests and skipped 1 because symbolic-link creation was unavailable. All 95 current installation-document links and 42 outer repository-document links resolved, and structural validation found no errors or warnings. Validation prose was finalized after that run, then the final manifest was refreshed and verified again. Runtime reports and fixture outputs are excluded from the public inventory. See VALIDATION.md for the test scope.
+
+## Historical preparation revision 2 — 2026-10-26
 
 - Git 2.55.0.windows.5 staged the intended 184 public files, including the MIT License and the outer manifest. The staged paths exactly match the manifest inventory plus MANIFEST.json.
 - A Git tree archive reproduced every staged file byte-for-byte. All 20 required component history directories survived. Public Configuration and Governance snapshots preserve the definitions preceding the license/status update.

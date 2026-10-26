@@ -1,8 +1,16 @@
 # Changelog
 
+## Public source publication and status synchronization (2026-10-26)
+
+- Record the completed first public source publication at [OrcastraStudio/Textura](https://github.com/OrcastraStudio/Textura), default branch `main`, initial commit [0e320cc](https://github.com/OrcastraStudio/Textura/commit/0e320cc2fe3454c7f6768e1bad81a80d05a37054).
+- Confirm MIT licensing with OrcastraStudio attribution and the initial local/remote commit match.
+- Synchronize current repository, maintenance and governance documentation; retain historical preparation evidence.
+- Preserve Governance's pre-update definitions in `history/v0002`, reseal its current definitions and refresh the outer manifest.
+- Keep formal Release/tag naming, support commitments and other unresolved decisions open. The 0.1.2 executable workflow and `git-publication-r2` edition identifier are unchanged.
+
 ## 0.1.2 — Git publication preparation, revision 2 (2026-10-26)
 
-Locally prepared MIT source edition; formal release tag and publication date remain undecided. The executable workflow remains 0.1.2.
+Historical status before the first upload: locally prepared MIT source edition; formal release tag and publication date were undecided. The executable workflow remains 0.1.2.
 
 - Apply the author-approved MIT License, Copyright (c) 2026 OrcastraStudio.
 - Record the selected public repository, OrcastraStudio/Textura.

@@ -1,8 +1,8 @@
-# Textura 0.1.2 source distribution candidate
+# Textura 0.1.2 public source edition
 
 Textura is a local system for author-led research and writing with an AI collaborator. It organizes topics, evidence, manuscripts, review and publication preparation. Operational instructions are primarily English; manuscripts, quotations and author dialogue may use any language.
 
-This sanitized source edition is derived from Textura 0.1.2 and licensed under [MIT](../../../LICENSE), with copyright attribution to OrcastraStudio. See [release status](release-pending.md) for the selected repository and remaining release decisions.
+This sanitized source edition is derived from Textura 0.1.2 and licensed under [MIT](../../../LICENSE), with copyright attribution to OrcastraStudio. The source repository was first published and verified on 2026-10-26. See [release status](release-pending.md) for publication evidence and remaining formal-release decisions.
 
 ## Start here
 
@@ -29,7 +29,7 @@ Bibliotheca Magna is optional, disabled and unconfigured. The local workflow wor
 
 ## Ownership and extensions
 
-`current/` is authoritative for each component. `history/` stores append-only implementation snapshots. The initial sanitized edition started with empty histories; public Configuration and Governance snapshots now preserve the definitions preceding the MIT decision. Work records remain in the owner's `current/records/`. Source/manuscript versions are data, not software history.
+`current/` is authoritative for each component. `history/` stores append-only implementation snapshots. The initial sanitized edition started with empty histories; public Configuration and Governance snapshots preserve the definitions preceding the MIT decision, and Governance's `v0002` snapshot preserves the state before the publication-status update. Work records remain in the owner's `current/records/`. Source/manuscript versions are data, not software history.
 
 For style and fiction, read [capabilities](style-fiction-decisions.md), [module collaboration](style-fiction-design.md), [Style](../../Style/current/README.md) and [Fiction](../../Fiction/current/README.md). Authors choose their own aesthetic aims and samples. [Open items](style-fiction-open-items.md) distinguish planned capabilities from implemented ones.
 

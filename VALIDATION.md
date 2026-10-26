@@ -1,6 +1,14 @@
 # Validation scope — Textura 0.1.2
 
-## Git preparation revision 2 (2026-10-26)
+## Publication-status maintenance (2026-10-26)
+
+After synchronizing the repository and Governance publication-status documents, the existing acceptance suites were re-run on Windows with Python 3.12.14. Reading passed 18 tests; Review passed 11 and skipped 1 because symbolic-link creation was unavailable; Quality passed 34. Total: 63 passed, 1 skipped. The skipped case remains unverified on this host.
+
+All 95 current installation-document links and 42 outer repository-document links resolved. Structural validation reported no errors or warnings. Governance's pre-update definitions were preserved in history/v0002, its current definitions were resealed, and the refreshed outer manifest verified 197 public file entries (198 files including MANIFEST.json).
+
+The update changes publication-status documentation and integrity metadata, with no executable workflow change. Tests use synthetic data; generated reports and fixture outputs remain excluded from Git. The 0.1.2 functional version and git-publication-r2 edition identifier are retained. Earlier validation evidence follows with its original scope.
+
+## Historical Git preparation revision 2 (2026-10-26)
 
 The MIT source edition was checked locally on Windows with Python 3.12.14. Reading ran 18 passing tests; Review ran 11 passing tests and skipped 1 because symbolic-link creation was unavailable; Quality ran 34 passing tests. Total: 63 passed, 1 skipped. All 94 current installation-document links resolved, and structural validation reported no errors or warnings. A separate check resolved 39 links in the outer repository documents.
 
