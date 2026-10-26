@@ -1,0 +1,14 @@
+{
+  "component": "LibraryBridge",
+  "version": "0.1.2",
+  "sealed_at": "2026-10-02T06:06:14+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "7b0fbb709d28ab56d0eeb9fce3d467aa2846fc1bf9d22af8c1925c8a1ba623e3",
+    "library_bridge.py": "e0125b27ae3b7f7e89953dbca0e00e8b5a8d1e8583da926ba9c82bc5c03c9db1",
+    "outgoing-template.json": "107c04c7fa0f6a7745ec780fd333cc95bd82fbf417c89b4447189f199c9112b8",
+    "README.md": "4e5f947d199018d891449c914950e9a8b3376e470bcd10d29b99ea251d347ff6",
+    "shared-setting-interface.md": "2859b986a3d5152d1d4ac0d6d14cd32682d866b3278ce9085e7823450d7f89ce",
+    "shared-setting-outgoing.template.json": "af67b8a36cbc5f1d209744c64b95de401b512e7f9e7960e1f3b46e7777e74ca4"
+  }
+}

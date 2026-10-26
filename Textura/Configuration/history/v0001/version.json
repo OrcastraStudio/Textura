@@ -1,0 +1,16 @@
+{
+  "component": "Configuration",
+  "archive_id": "v0001",
+  "created_at": "2026-10-26T20:58:48+00:00",
+  "reason": "Before applying the author-approved MIT license for Git publication revision 2",
+  "scope": "Full component definitions; runtime records/outputs/caches excluded",
+  "original_base": "current",
+  "files": {
+    "component.json": "57b6aa06dbee53be54a0e0f62d4efbb01eb15c1439c76a5853961a92a3473e82",
+    "components.json": "c6ddecc45672a6e8941ff1d578ba341a29a8a77ab0043a0a35440f77887a1299",
+    "README.md": "7a95ae9ff189dabe7d716b9134e248d863f1647ff0e5a39edadad43302468c39",
+    "settings.json": "98ab0c62bf164b739aa678427289e5377f2af0afb6c68f61c4eb0ee335aebd06",
+    "release-manifest.json": "0362f64e12f4b2552d7ad5de22b56161621abe8710e67200ba1d69c461c26c4c"
+  },
+  "restore": "Archive the active definitions first, then copy selected files from this snapshot into this component's current. Never edit this archive."
+}

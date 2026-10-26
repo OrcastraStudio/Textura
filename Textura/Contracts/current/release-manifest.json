@@ -1,0 +1,13 @@
+{
+  "component": "Contracts",
+  "version": "0.1.2",
+  "sealed_at": "2026-10-02T06:06:12+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "c28a6f0e670ae91fded1fac98b70f3c77e775f905e49ab63fa6d3e05d1f05448",
+    "README.md": "bc8770592dd0ed6434bedf9bad4e77376a534a4155df1eeb4ad384e6072723ee",
+    "record-contracts.md": "30523d3bcb4dacd9e74fda059ebfdc53103a7b0e5c3c1a42e53104921460fbe7",
+    "storage.py": "3bd7822df77c656b788901205b9ca247a8fadfc77f9c3c08e8e684fce17bc147",
+    "style-fiction-contracts.md": "b35c0bd5f55277ac5998fc67c277a431d1cd9c65ae2cd8cecd716a627d31568a"
+  }
+}

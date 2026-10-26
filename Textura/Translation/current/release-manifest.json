@@ -1,0 +1,12 @@
+{
+  "component": "Translation",
+  "version": "0.1.1",
+  "sealed_at": "2026-10-02T06:06:13+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "d12bea3376a74f5706adb17e84f02dd99464ccc8496305517080ffe27112c932",
+    "protocol.md": "f0dadb52f30b7f3af50617bbb2f41ac73af6ce34f57a86be2ee34502cd042a5b",
+    "README.md": "b01c43a17d193f7625b6c5bf9b6c8df7d869d5f1085188875d2664b750ae8743",
+    "translation-note.template.md": "01e723e29010cf981a106c99e8fe274b05521a8f84c1cad2a43a3dc8cd220229"
+  }
+}

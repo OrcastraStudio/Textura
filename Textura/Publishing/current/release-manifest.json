@@ -1,0 +1,12 @@
+{
+  "component": "Publishing",
+  "version": "0.1.1",
+  "sealed_at": "2026-10-02T06:06:13+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "eaf2ca70545f84184c4da3ef65a0cc1793367381d15062f8ff74343bd48300a3",
+    "protocol.md": "0c2beecbba1ebd13bd505d76e9e101bf4fbd35e2a52346f2a7668e1abc5704d8",
+    "publication-package.template.md": "957654697db8b680cc4906db6bb4771b957fea8f419aeb481a5c2641a404788a",
+    "README.md": "be7f0efa5354478a3bca932bf06968e244e70999b7d2853555946d89aea41f7b"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "component": "Quality",
+  "version": "0.1.0",
+  "sealed_at": "2026-10-02T06:06:14+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "c69c5cc36e29b0f028fd767d4d6b887f1c3acd9ada035ef512f8df92ac2ffa2e",
+    "README.md": "18e718a8aa55809170fe0d4a803b3d3c3709bedefa39b96afef44b355f2ad87a",
+    "run_checks.py": "7cf70f91be50e504316ab75bbb7c1559bac4ff21c917baef7aca2d392cda7aff",
+    "tests/test_cli.py": "b579d34b33dea039fc506e432166d146dcae9b154bc4c6ae19fdf8a84f0c2c82",
+    "tests/test_public_edition.py": "dc405e095bb4c9fd748deb2caefaaa5f00b14135acdea1b8b37b34e632624b4f",
+    "tests/test_workflow.py": "e6920dae06a263e7c50baf4562dbd33a4c562e0ee14c32f53bb482ac75ef6fd2"
+  }
+}

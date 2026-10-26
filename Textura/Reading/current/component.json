@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "name": "Reading",
+  "version": "0.1.0",
+  "purpose": "Bounded text extraction and locators",
+  "execution_mode": "executable",
+  "depends_on": [],
+  "current": "current",
+  "history": "history",
+  "entry": "README.md",
+  "runtime_data": "records",
+  "ownership": "This component owns its definitions, records, output and historical snapshots."
+}

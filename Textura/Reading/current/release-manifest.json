@@ -1,0 +1,12 @@
+{
+  "component": "Reading",
+  "version": "0.1.0",
+  "sealed_at": "2026-10-02T06:06:13+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "32f176fb444b378c00d54f98bc3c81297620e79dec8603295f3e3e86f46ee5db",
+    "readers.py": "b405b7292f4e1a67224b2711acf9302f15198ede85deee7d7a07c33856d74424",
+    "README.md": "d9e9b92de33fc42149ef7b03ab80e3bf8462f8daae87e4c321a8bbcdac3cc3bc",
+    "tests/test_readers.py": "b4fa26ff8b65e723a089442821298a5c0785cc708425227613547e93da19a346"
+  }
+}

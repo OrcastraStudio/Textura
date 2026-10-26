@@ -1,0 +1,14 @@
+{
+  "component": "Review",
+  "version": "0.1.2",
+  "sealed_at": "2026-10-02T06:06:13+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "651214d22c6215643673698f60634ad6042e50b540f4e74c32578d770b099768",
+    "fiction-review-context.template.md": "3e898dd3269c6df3dc4e6e5ea59e0832a5e843df103a014e0d7266a380d0cf02",
+    "fiction-review-protocol.md": "57c572cd0873b8f7e625488e4487f6b49a9051527836ae630fc05baac00afce2",
+    "README.md": "50332dec8d77115a6f5c7404b940aaac73c035c4a0935d07c26dfaed5b489840",
+    "review.py": "6151aaa7d27fbe4413099dc8abf654637b81c444ae46898ca1e26ed915651e40",
+    "tests/test_review.py": "5aaa877372ade40c827673fa03c96e67da944a3ffc7aa0f604f53a6465da0075"
+  }
+}

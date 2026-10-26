@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "name": "Contracts",
+  "version": "0.1.2",
+  "purpose": "Shared record primitives and contracts",
+  "execution_mode": "executable",
+  "depends_on": [
+    "Governance"
+  ],
+  "current": "current",
+  "history": "history",
+  "entry": "README.md",
+  "runtime_data": "records",
+  "ownership": "This component owns its definitions, records, output and historical snapshots."
+}

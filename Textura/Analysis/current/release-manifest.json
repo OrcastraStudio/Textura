@@ -1,0 +1,12 @@
+{
+  "component": "Analysis",
+  "version": "0.1.0",
+  "sealed_at": "2026-10-02T06:06:13+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "analysis-plan.template.md": "bccc8f3d72195902827ecdefd385618458b5560cb80d44cff3ce667631cdc4db",
+    "component.json": "5a92a694f773b67bc078a2248ab33c0ead2d94bec67ec44cdbd1e425d4d0afc4",
+    "protocol.md": "32712c588c38d15e4858e3c8651e684ed530791c457fd8d941df67da48aad186",
+    "README.md": "5f23eade878e227ad952b5c79a9f5c89606577979026864fcb01d226c78b3068"
+  }
+}

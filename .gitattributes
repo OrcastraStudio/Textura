@@ -1,0 +1,4 @@
+# Preserve byte-level seals and manifests on every platform.
+# Deliberate newline changes require owner-local history and resealing.
+* -text
+*.zip binary

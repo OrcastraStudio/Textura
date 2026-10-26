@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "name": "Fiction",
+  "version": "0.1.0",
+  "purpose": "Story structure, internal narrative states and continuity protocols",
+  "execution_mode": "protocol",
+  "depends_on": [
+    "Topics",
+    "Writing",
+    "LibraryBridge"
+  ],
+  "current": "current",
+  "history": "history",
+  "entry": "README.md",
+  "runtime_data": "records",
+  "ownership": "This component owns its definitions, planning/continuity records and history; it references prose and formal shared versions owned elsewhere."
+}

@@ -1,0 +1,11 @@
+{
+  "component": "State",
+  "version": "0.1.2",
+  "sealed_at": "2026-10-02T06:06:13+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "667390dd2921ec0102d33683268453c23021643aa4cb4f3e08519eb617db8066",
+    "README.md": "1eb0e936e18db04b493299937a1682adc99d79f66abc59f6c0b46326a617d4cb",
+    "state_records.py": "c44e29855fb7144af7941ec4118e08e19322958b9dfe5eeb85514102a72dd389"
+  }
+}

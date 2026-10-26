@@ -1,0 +1,15 @@
+{
+  "component": "Fiction",
+  "version": "0.1.0",
+  "sealed_at": "2026-10-02T06:06:13+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "change-impact.template.md": "83ad4c3158aa565ebe9cb06d4d1f9274d57ff45e0450fc42f683b2ea354f5bed",
+    "component.json": "50be31cb1df2d7d72c9be870219fed71ec7c590b7a462eb9b0589c298f922bea",
+    "continuity.template.md": "af4bfbcefed0cc1bded428f42da2b3080094b0de3ed1baadad5c2faf680b1f03",
+    "protocol.md": "b2a518d404db1ab3fcb1c69808474b3e69a068a48d7074193f4e2750245e597b",
+    "README.md": "7c959513f694b6fdfe883ca9bfb7b10a0d73cbcddb9808457ca4e10df28e267c",
+    "review-context.template.md": "26e74d0ccd51eb70b854d5e7b4fa39fef79edc6b7e8a473773f35d3c6828e3c1",
+    "story-map.template.md": "9551dd66460fa4a17598a3470be070fa7db4c9163cbcd0b7b19b2cc8cee331ad"
+  }
+}

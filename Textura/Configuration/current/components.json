@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0",
+  "root_policy": "Component directories only",
+  "directory_pattern": "^[A-Za-z0-9_-]+$",
+  "components": [
+    {
+      "name": "Governance",
+      "purpose": "Operating rules and architectural decisions",
+      "mode": "protocol",
+      "depends_on": [],
+      "entry": "Governance/current/README.md"
+    },
+    {
+      "name": "Configuration",
+      "purpose": "Settings and component registry",
+      "mode": "configuration",
+      "depends_on": [
+        "Governance"
+      ],
+      "entry": "Configuration/current/README.md"
+    },
+    {
+      "name": "Contracts",
+      "purpose": "Shared record primitives and contracts",
+      "mode": "executable",
+      "depends_on": [
+        "Governance"
+      ],
+      "entry": "Contracts/current/README.md"
+    },
+    {
+      "name": "Runner",
+      "purpose": "Commands and local orchestration",
+      "mode": "executable",
+      "depends_on": [
+        "Configuration",
+        "Contracts",
+        "Topics",
+        "Sources",
+        "Reading",
+        "Writing",
+        "Evidence",
+        "Review",
+        "State",
+        "LibraryBridge"
+      ],
+      "entry": "Runner/current/README.md"
+    },
+    {
+      "name": "Topics",
+      "purpose": "Topics, objects, works and series",
+      "mode": "executable",
+      "depends_on": [
+        "Contracts"
+      ],
+      "entry": "Topics/current/README.md"
+    },
+    {
+      "name": "Research",
+      "purpose": "Research briefs and search strategy",
+      "mode": "protocol",
+      "depends_on": [
+        "Topics",
+        "Sources",
+        "LibraryBridge"
+      ],
+      "entry": "Research/current/README.md"
+    },
+    {
+      "name": "Sources",
+      "purpose": "Source metadata and immutable originals",
+      "mode": "executable",
+      "depends_on": [
+        "Contracts",
+        "Reading"
+      ],
+      "entry": "Sources/current/README.md"
+    },
+    {
+      "name": "Reading",
+      "purpose": "Bounded text extraction and locators",
+      "mode": "executable",
+      "depends_on": [],
+      "entry": "Reading/current/README.md"
+    },
+    {
+      "name": "Translation",
+      "purpose": "Translations and language uncertainty",
+      "mode": "protocol",
+      "depends_on": [
+        "Sources",
+        "Reading"
+      ],
+      "entry": "Translation/current/README.md"
+    },
+    {
+      "name": "Evidence",
+      "purpose": "Claims, judgments and evidence anchors",
+      "mode": "executable",
+      "depends_on": [
+        "Contracts",
+        "Sources",
+        "Writing"
+      ],
+      "entry": "Evidence/current/README.md"
+    },
+    {
+      "name": "Analysis",
+      "purpose": "Requested reproducible analysis",
+      "mode": "protocol",
+      "depends_on": [
+        "Sources",
+        "Reading"
+      ],
+      "entry": "Analysis/current/README.md"
+    },
+    {
+      "name": "Writing",
+      "purpose": "Draft snapshots and author revision workflow",
+      "mode": "executable",
+      "depends_on": [
+        "Contracts",
+        "Reading"
+      ],
+      "entry": "Writing/current/README.md"
+    },
+    {
+      "name": "Style",
+      "purpose": "Selected samples, scoped style and reference/practice protocols",
+      "mode": "protocol",
+      "depends_on": [
+        "Writing",
+        "Sources",
+        "Reading"
+      ],
+      "entry": "Style/current/README.md"
+    },
+    {
+      "name": "Fiction",
+      "purpose": "Story structure, internal narrative states and continuity protocols",
+      "mode": "protocol",
+      "depends_on": [
+        "Topics",
+        "Writing",
+        "LibraryBridge"
+      ],
+      "entry": "Fiction/current/README.md"
+    },
+    {
+      "name": "Review",
+      "purpose": "Frozen review packets and agent-executed literary review protocols",
+      "mode": "executable",
+      "depends_on": [
+        "Writing",
+        "Evidence"
+      ],
+      "entry": "Review/current/README.md"
+    },
+    {
+      "name": "State",
+      "purpose": "Key decisions and portable handoffs",
+      "mode": "executable",
+      "depends_on": [
+        "Contracts",
+        "Writing"
+      ],
+      "entry": "State/current/README.md"
+    },
+    {
+      "name": "Publishing",
+      "purpose": "Publication-ready manuscripts and adaptations",
+      "mode": "protocol",
+      "depends_on": [
+        "Writing",
+        "Evidence"
+      ],
+      "entry": "Publishing/current/README.md"
+    },
+    {
+      "name": "Feedback",
+      "purpose": "Selected reader responses and discussion",
+      "mode": "protocol",
+      "depends_on": [
+        "Topics",
+        "Publishing"
+      ],
+      "entry": "Feedback/current/README.md"
+    },
+    {
+      "name": "LibraryBridge",
+      "purpose": "Read-only library access and selected transfer/interface protocols",
+      "mode": "executable",
+      "depends_on": [
+        "Configuration",
+        "Contracts"
+      ],
+      "entry": "LibraryBridge/current/README.md"
+    },
+    {
+      "name": "Quality",
+      "purpose": "Tests and audit receipts",
+      "mode": "verification",
+      "depends_on": [
+        "Runner"
+      ],
+      "entry": "Quality/current/README.md"
+    }
+  ]
+}

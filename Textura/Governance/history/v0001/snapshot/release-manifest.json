@@ -1,0 +1,19 @@
+{
+  "component": "Governance",
+  "version": "0.1.2",
+  "sealed_at": "2026-10-02T06:06:12+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "AGENTS.md": "fe88ca2329bb00e93619e5383607c6262b73e69a1f48076e89952327896abeb1",
+    "architecture.md": "56dc00dbc8d8da7cc472ea24a3f14c1e33f07aa14ad88637915474f2dc978b73",
+    "component.json": "5d12d4b97fd4cd52db35f5e679992d296c3b4694abb9a1b5442d9cafcfb4f4ce",
+    "decisions.md": "1c2a17a0cbc83b3d051de8b888b141c988082a9bf07e967f4937175349d1c1cc",
+    "README.md": "47c66efdc6ad46ad106f3dce5deb373babb7bac81d12ffe4181aed498f8b6785",
+    "references.md": "6101516d5321ac952ea486ea24e3b7f55dfe7e7a2028e5142afdb70981266f37",
+    "release-pending.md": "ea314c9bd5a7bef3673c752c75b125c7b2cf216c040a721c908601fd77d3ed01",
+    "storage-and-versioning.md": "47956a1f39003dc8681be2939d14d2a962c5036f6c3a07ea01f2a3554ee73351",
+    "style-fiction-decisions.md": "125dca5b93cb769801335a7b8faea52d50f96aab8c3918fc6429a03b18a4f8e1",
+    "style-fiction-design.md": "4d866ae065e4dc63564ed181709b0f2ccf4276288649b6bc8d295b2f6f52fd36",
+    "style-fiction-open-items.md": "0e661e541ee674889935487c613fb3a8f29c7c87492b0a68c03d2986624a08af"
+  }
+}

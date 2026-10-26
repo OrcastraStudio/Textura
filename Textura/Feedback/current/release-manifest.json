@@ -1,0 +1,12 @@
+{
+  "component": "Feedback",
+  "version": "0.1.0",
+  "sealed_at": "2026-10-02T06:06:14+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "6a52600efd6773ee6f56a38fb9133f7383a074f90a2aaad9edf9f349b65229b7",
+    "feedback-note.template.md": "27fea69c065a4a591616578a04e3682215da42a3b41fa3cdcede25e062ee6e5a",
+    "protocol.md": "729e2b44ed4d6cffdbe393b1c9c57df99736bfb69c9211c0d5c37c6de330bc09",
+    "README.md": "8394966b7441f8633e3c035a889246bb10fb47e60e812283749336f67c46e87d"
+  }
+}

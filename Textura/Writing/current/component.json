@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "name": "Writing",
+  "version": "0.1.2",
+  "purpose": "Draft snapshots and author revision workflow",
+  "execution_mode": "executable",
+  "depends_on": [
+    "Contracts",
+    "Reading"
+  ],
+  "current": "current",
+  "history": "history",
+  "entry": "README.md",
+  "runtime_data": "records",
+  "ownership": "This component owns its definitions, records, output and historical snapshots."
+}

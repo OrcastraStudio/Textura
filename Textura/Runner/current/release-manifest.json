@@ -1,0 +1,14 @@
+{
+  "component": "Runner",
+  "version": "0.1.0",
+  "sealed_at": "2026-10-02T06:06:12+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "COMMAND.md": "c381a93bae82bfc68b926ccfb0333a85e01190b41c1b1f4691ec808ffc38dc3b",
+    "component.json": "97dce28752fe91573a166c66b41266d46becf34a88edeb720f10766cdb5aecbf",
+    "maintenance.py": "19ceab31f2d01438bf48780cb3d012efb6f0aa52143d224f649011ae1a57a756",
+    "README.md": "aa3c22cc02bac5a363c8ee5926295204470b0188fc3c973286e80c0b6446f493",
+    "textura.ps1": "69f6903099816e089e96a6fa86f041e2432259530bbf2d1c9733f610eca971ec",
+    "textura.py": "5fb664f6181993fddc27687a48702b9bf147ada01d14648894b6d6150a51a7ff"
+  }
+}

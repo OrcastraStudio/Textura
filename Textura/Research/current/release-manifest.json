@@ -1,0 +1,12 @@
+{
+  "component": "Research",
+  "version": "0.1.0",
+  "sealed_at": "2026-10-02T06:06:12+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "23fef0ba080fcf6e2536559f51d16c435385931ffe5533cf799b06534541bebe",
+    "protocol.md": "e056be648fe836cbe63df61b86da9ce906210f96c5881019249f5c8b4cde0bd2",
+    "README.md": "6a5004729fcd106773fc9803c6c3275e86e654aabf4ca8fd72ed5a179d2fa5bb",
+    "research-brief.template.md": "69d1ae7db5ab8dd102ace22c9b9bf5a645f2ea1ec3978725a31238ed7c3a6786"
+  }
+}

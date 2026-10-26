@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "record_type": "shared_setting_outgoing_proposal",
+  "status": "unselected",
+  "fictional_material": true,
+  "provider": "bibliotheca_magna",
+  "interface_status": "not_implemented",
+  "author_selection_basis": null,
+  "selected_item_ids": [],
+  "intended_action": "propose_formal_shared_setting_version",
+  "setting_id": null,
+  "base_provider_version": null,
+  "scope": {
+    "work_ids": [],
+    "branch_ids": [],
+    "timeline_ids": []
+  },
+  "input_references": [],
+  "proposed_changes": [],
+  "reasons": null,
+  "affected_work_references": [],
+  "processing_policy": "inherit_most_restrictive_inputs",
+  "actual_transfer_status": "not_performed",
+  "library_receipt": null,
+  "note": "Blank template; preparation or selection is not a completed write. Use only an actually implemented provider workflow for a later scoped transfer."
+}

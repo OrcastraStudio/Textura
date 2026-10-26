@@ -1,0 +1,11 @@
+{
+  "component": "Sources",
+  "version": "0.1.0",
+  "sealed_at": "2026-10-02T06:06:13+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "fbe39909ad9a8fbce084e4cafcfa030bd1ac887759da10778109dd23a25c281c",
+    "README.md": "7c2d7f425aafebdb6c952d4e24cb3bc8f602e68633559af0bf6003d92257fb27",
+    "sources.py": "98b417adf8d9c89b89a0573069837df46fb63b6a96a6dc5911f10b919adec9a3"
+  }
+}

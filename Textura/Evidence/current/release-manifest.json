@@ -1,0 +1,11 @@
+{
+  "component": "Evidence",
+  "version": "0.1.1",
+  "sealed_at": "2026-10-02T06:06:13+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "00d5c5d2dce30c5d718a43b3f6cbcede156c4c8c987fcbadf93a2753d98086a1",
+    "evidence.py": "982daf14ab5680728a83f2b6a6b0dcb3a431c5bf4a794f28097c3292a4299d1a",
+    "README.md": "1fab9a9316bcf7e009a4dac8ede00f1e38ff3747046000047cb118bdbdb839be"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "name": "Review",
+  "version": "0.1.2",
+  "purpose": "Frozen review packets and agent-executed literary review protocols",
+  "execution_mode": "executable",
+  "depends_on": [
+    "Writing",
+    "Evidence"
+  ],
+  "current": "current",
+  "history": "history",
+  "entry": "README.md",
+  "runtime_data": "records",
+  "ownership": "This component owns its definitions, records, output and historical snapshots."
+}

@@ -1,0 +1,17 @@
+{
+  "component": "Style",
+  "version": "0.1.2",
+  "sealed_at": "2026-10-02T06:06:13+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "dd512bf47314fa6fa657ca3d2c0a4132d2b5389a22e1e8d570606fbd71190f87",
+    "free-verse-reading.template.md": "bfccd62aa8be6a565d5923081256465d63b8b27242dcdb601acbc45fcb1b9d30",
+    "practice.template.md": "d29ee8db63d210f00087ac9655c4d6293a27335bf748ddd5e8e2455eac7ebcd9",
+    "protocol.md": "d54f5537071bc8bfb6c55894af37f58608c38a670410cdca1409064645cbf7ec",
+    "README.md": "4bc287550ec62a07ff58f57d921e41db0dad237b8d52c687ae4994b4134594b2",
+    "reference-study.template.md": "e2ec278ba37fa8b3bf051184b32dea03ce189b547fd66ce63442ae15870048b5",
+    "sample-selection.template.md": "4841de0c44d022e5adc9ceb7ef0c125c99c7ab308bad2b3a23e3fbb5acace3ba",
+    "statistics.template.md": "992051d3c41c0b89d0c3bd3f61d65783b750b9406aa8a2086209f8a638ebdf60",
+    "style-profile.template.md": "459245eb8479170cccdfa3ba7136830559d34e17821707042c746bff5120f032"
+  }
+}

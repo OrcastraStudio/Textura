@@ -1,0 +1,17 @@
+{
+  "record_type": "library_outgoing_proposal",
+  "status": "unselected",
+  "author_selection_basis": null,
+  "intended_action": "candidate",
+  "title": "",
+  "textura_record_ids": [],
+  "files": [],
+  "source_urls": [],
+  "capture_scope": "unknown",
+  "processing_policy": "local_only",
+  "library_receipt": null,
+  "milestone": null,
+  "preservation_reason": null,
+  "selected_item_ids": [],
+  "processing_policy_note": "Conservative preparation value; preserve all source restrictions. A template does not authorize cloud use or transfer."
+}

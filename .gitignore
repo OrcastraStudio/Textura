@@ -1,0 +1,18 @@
+# Local author/runtime data; do not commit by default.
+**/current/records/
+**/current/outputs/
+**/current/cache/
+**/__pycache__/
+**/.pytest_cache/
+*.pyc
+.env
+.env.*
+.venv/
+
+# Fixture parents, local editors and secret material
+**/current/tests/runtime/
+*.pem
+*.key
+*.pfx
+.DS_Store
+Thumbs.db

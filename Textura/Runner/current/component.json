@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "name": "Runner",
+  "version": "0.1.0",
+  "purpose": "Commands and local orchestration",
+  "execution_mode": "executable",
+  "depends_on": [
+    "Configuration",
+    "Contracts",
+    "Topics",
+    "Sources",
+    "Reading",
+    "Writing",
+    "Evidence",
+    "Review",
+    "State",
+    "LibraryBridge"
+  ],
+  "current": "current",
+  "history": "history",
+  "entry": "README.md",
+  "runtime_data": "records",
+  "ownership": "This component owns its definitions, records, output and historical snapshots."
+}

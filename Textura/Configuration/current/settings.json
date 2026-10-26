@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "system_name": "Textura",
+  "release": "0.1.2",
+  "default_language_for_operations": "en",
+  "source_language_allowlist": null,
+  "default_processing_policy": "local_only",
+  "research_default": "small_search_then_discuss",
+  "revision_default": "suggest_then_author_adopts",
+  "fact_check_default": "risk_prioritized",
+  "poetry_default": "free_verse_blind_first",
+  "publishing_default": "prepare_only",
+  "automatic_paid_api_calls": false,
+  "bibliotheca": {
+    "root": null,
+    "mode": "limited_reference",
+    "writeback": "selected_only",
+    "automatic_writeback": false,
+    "suggestion_timing": "significant_research_or_writing_milestones",
+    "suggestion_format": "concise_candidates_with_reasons",
+    "author_selection_required": true,
+    "shared_fictional_settings": {
+      "status": "planned_external_module",
+      "formal_authority": "optional_provider_when_implemented_and_selected",
+      "work_adoption": "exact_version_explicit_author_choice",
+      "automatic_adoption": false,
+      "write_adapter_implemented": false,
+      "interface_document": "LibraryBridge/current/shared-setting-interface.md"
+    },
+    "enabled": false
+  },
+  "agent_defaults": {
+    "source_of_authority": "Governance/current/decisions.md",
+    "citation_presentation": "numbered_body_references_with_endnotes_and_sources",
+    "ai_assistance_disclosure": {
+      "default": "brief_accurate_actual_contributions",
+      "placement": "end_of_work"
+    },
+    "public_corrections": {
+      "minor_nonsemantic": "no_separate_public_note_required",
+      "substantive": "dated_concise_change_note",
+      "preserve_versions_and_reasons": true
+    },
+    "exploratory_views": "allow_in_body_with_explicit_status_evidence_counterexamples_and_gaps",
+    "translated_quotations": {
+      "body": "translation",
+      "notes": [
+        "corresponding_original",
+        "source",
+        "translation_attribution"
+      ],
+      "inline_original_terms": "when_useful"
+    },
+    "argumentative_objections": "include_strong_relevant_objections_with_response_or_limits",
+    "review_initial_pass": "independent_when_available",
+    "review_fallback": "sequential_with_explicit_unmet_independence_statement"
+  },
+  "backup": {
+    "status": "not_configured_no_backup_implementation",
+    "enabled": false,
+    "preserve_component_history": true,
+    "preserve_manuscript_versions": true
+  },
+  "style_fiction_extension": {
+    "capability_level": "agent_protocols_and_blank_templates",
+    "decision_source": "Governance/current/style-fiction-decisions.md",
+    "personal_preset": null,
+    "reference_base": "Textura installation root",
+    "core_design": "shared_core_with_separate_personal_configuration_and_data",
+    "core_capabilities": [
+      "author_selected_samples",
+      "scoped_voice_profiles",
+      "reference_method_study",
+      "optional_statistics_protocol",
+      "optional_actual_work_and_practice_modes",
+      "structural_alternatives",
+      "narrative_state_distinctions",
+      "change_impact_review",
+      "optional_shared_setting_adapter"
+    ],
+    "public_aesthetic_defaults": null,
+    "new_cli_handlers": false,
+    "automatic_statistics_engine": false,
+    "automatic_fiction_state_engine": false,
+    "automatic_extended_review_packets": false,
+    "personal_preset_runtime_enforcement": "AI_host_protocol_not_CLI"
+  },
+  "edition": "git-publication-r2",
+  "license_status": "MIT",
+  "configuration_status": "configurable_starter_defaults_not_personal_author_decisions"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "Configuration",
+  "version": "0.1.2",
+  "sealed_at": "2026-10-26T21:00:38+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "57b6aa06dbee53be54a0e0f62d4efbb01eb15c1439c76a5853961a92a3473e82",
+    "components.json": "c6ddecc45672a6e8941ff1d578ba341a29a8a77ab0043a0a35440f77887a1299",
+    "README.md": "7a95ae9ff189dabe7d716b9134e248d863f1647ff0e5a39edadad43302468c39",
+    "settings.json": "2cdec59ce0541018d340326484e699ec8b7827eb37546a03550b4c044f2515e4"
+  }
+}

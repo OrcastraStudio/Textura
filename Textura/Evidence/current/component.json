@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "name": "Evidence",
+  "version": "0.1.1",
+  "purpose": "Claims, judgments and evidence anchors",
+  "execution_mode": "executable",
+  "depends_on": [
+    "Contracts",
+    "Sources",
+    "Writing"
+  ],
+  "current": "current",
+  "history": "history",
+  "entry": "README.md",
+  "runtime_data": "records",
+  "ownership": "This component owns its definitions, records, output and historical snapshots."
+}

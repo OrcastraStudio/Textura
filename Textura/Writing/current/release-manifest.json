@@ -1,0 +1,11 @@
+{
+  "component": "Writing",
+  "version": "0.1.2",
+  "sealed_at": "2026-10-02T06:06:13+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "b40ccfe7fa9f920e820ec6b308adea8d8103dd759bbe3f232d9f61fbdd92c44c",
+    "README.md": "1c12f421866de8ab9d9df9da767cb9f7d4ab3dd0bceb0b3fe82a397987410b56",
+    "writing.py": "a70d38dc4de7fd27165888b98d88510ab59d524e0ce75879a69db90339abf0d8"
+  }
+}

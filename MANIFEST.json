@@ -1,0 +1,745 @@
+{
+  "schema_version": "1.0",
+  "system": "Textura",
+  "base_release": "0.1.2",
+  "edition": "git-publication-r2",
+  "license_status": "MIT",
+  "prepared_at": "2026-10-26T21:02:46.234407+00:00",
+  "entry": "README.md",
+  "installation": "Textura",
+  "scope": "Public file hashes except MANIFEST.json; Git metadata and runtime records/outputs/caches excluded",
+  "files": {
+    ".editorconfig": {
+      "sha256": "d334b77add305e99ea69a66e45043a77bb1bd53d36a260d4493a17c8dd48d1ac",
+      "bytes": 143
+    },
+    ".gitattributes": {
+      "sha256": "3550717430b2959a0c5590de94feaebdcb3ad9893d4d970f4ec1badb90849c92",
+      "bytes": 154
+    },
+    ".gitignore": {
+      "sha256": "7d3c4b1d97cabac9dc08cba3759484f235f006110c9057074d9c6efadbdbcf49",
+      "bytes": 308
+    },
+    "CHANGELOG.md": {
+      "sha256": "087c217a04bd0df66e5c50e4159093b5b1b4e0db9d1934858f8d7dd14657777c",
+      "bytes": 1784
+    },
+    "CODE_OF_CONDUCT.md": {
+      "sha256": "e714cf86ee4683754bf72df0d08cd11683bca73e40e48d56f6ac3dc5b99e9074",
+      "bytes": 667
+    },
+    "CONTRIBUTING.md": {
+      "sha256": "1d1570631473fea0d04be000ef1d03f750d623f4c98aafda86b961fa37559a18",
+      "bytes": 1982
+    },
+    "GIT_VALIDATION.md": {
+      "sha256": "d8702a61cf469606c7040b3534642e989784905d5121ca52cf84f450d3969d89",
+      "bytes": 3087
+    },
+    "ISSUE_TEMPLATE/bug_report.md": {
+      "sha256": "b3501e2ae3400ceb9e23b1ee7691eccf10f957cc7431fdf2a36690a33da444b8",
+      "bytes": 509
+    },
+    "ISSUE_TEMPLATE/feature_request.md": {
+      "sha256": "b308cdc20de89fc4ea71eb6073a27f6f20edc3572da10512cc750e80fbd599a4",
+      "bytes": 451
+    },
+    "LICENSE": {
+      "sha256": "85b13297f2021f927a5f35b275e05ef98025a42f331b6a575fbfd5046d06b41b",
+      "bytes": 1071
+    },
+    "LICENSE_STATUS.md": {
+      "sha256": "c6739e3c93fbeb47ca80a02568b969ce1ca1f74e6eabb0bb087477394aaa6dc2",
+      "bytes": 1322
+    },
+    "Maintainer/release.py": {
+      "sha256": "82227715d4bb4d72a6e74b702c43e380f7baae115ff906622b2836aeb87210d9",
+      "bytes": 3207
+    },
+    "PENDING_DECISIONS.md": {
+      "sha256": "04ecc7465165394df86e84efb40fef902a926834dcdd7b883e88d548fd277250",
+      "bytes": 2667
+    },
+    "PUBLISHING.md": {
+      "sha256": "29bdfd2896abfbcdc7ceae6d6315074957a0e0acfc595753ad84b24edddc9b29",
+      "bytes": 5721
+    },
+    "PULL_REQUEST_TEMPLATE.md": {
+      "sha256": "ec24c17df57d807afe322aea8934850070b7dd42a674522645a06da4213dada0",
+      "bytes": 764
+    },
+    "README.md": {
+      "sha256": "796b5725db199efaa403fcc05124f1d771cf22d2a5f9af65285d9c8afbf7bc07",
+      "bytes": 6225
+    },
+    "RELEASE_DESCRIPTION.md": {
+      "sha256": "9c8d2a309aea7b3e78444f72dbfd57d2971ee5779ec5fd968f955e3a4d1cc234",
+      "bytes": 1832
+    },
+    "RELEASE_NOTES.md": {
+      "sha256": "900e8ee898c667237be12695793c0c43a72f0c031b59f5e8658d9a6f562f776e",
+      "bytes": 2716
+    },
+    "REPOSITORY_DESCRIPTION.md": {
+      "sha256": "6c15e9d859342edf05f24b26a5057cb1b420f0be1e36127116b6d89217fa3984",
+      "bytes": 891
+    },
+    "SECURITY.md": {
+      "sha256": "3bc66ac912f97ae92e8566e480b4b8ab136afb0c4fb96e9b095f350017629845",
+      "bytes": 1280
+    },
+    "SUPPORT.md": {
+      "sha256": "50eeb0d43495cf2b216c27e6f1cefb772a13821ef198f0ff20a36af4d4c27cc5",
+      "bytes": 824
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "2d5f2935adf80438cde978f2456578126d8af9f80c33530acb62728d77d5fa6e",
+      "bytes": 940
+    },
+    "Textura/Analysis/current/README.md": {
+      "sha256": "5f23eade878e227ad952b5c79a9f5c89606577979026864fcb01d226c78b3068",
+      "bytes": 669
+    },
+    "Textura/Analysis/current/analysis-plan.template.md": {
+      "sha256": "bccc8f3d72195902827ecdefd385618458b5560cb80d44cff3ce667631cdc4db",
+      "bytes": 1181
+    },
+    "Textura/Analysis/current/component.json": {
+      "sha256": "5a92a694f773b67bc078a2248ab33c0ead2d94bec67ec44cdbd1e425d4d0afc4",
+      "bytes": 404
+    },
+    "Textura/Analysis/current/protocol.md": {
+      "sha256": "32712c588c38d15e4858e3c8651e684ed530791c457fd8d941df67da48aad186",
+      "bytes": 1816
+    },
+    "Textura/Analysis/current/release-manifest.json": {
+      "sha256": "f9fa2eef867293d8df5f87bdb8ee5d983a9e56b3ebb821aa9b50de0fa33678b0",
+      "bytes": 558
+    },
+    "Textura/Analysis/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Configuration/current/README.md": {
+      "sha256": "7a95ae9ff189dabe7d716b9134e248d863f1647ff0e5a39edadad43302468c39",
+      "bytes": 3082
+    },
+    "Textura/Configuration/current/component.json": {
+      "sha256": "57b6aa06dbee53be54a0e0f62d4efbb01eb15c1439c76a5853961a92a3473e82",
+      "bytes": 402
+    },
+    "Textura/Configuration/current/components.json": {
+      "sha256": "c6ddecc45672a6e8941ff1d578ba341a29a8a77ab0043a0a35440f77887a1299",
+      "bytes": 5088
+    },
+    "Textura/Configuration/current/release-manifest.json": {
+      "sha256": "90aaebed81ba3b0d498f58c7105ede0576260907cb177c5c1f001353f2fc69b7",
+      "bytes": 555
+    },
+    "Textura/Configuration/current/settings.json": {
+      "sha256": "2cdec59ce0541018d340326484e699ec8b7827eb37546a03550b4c044f2515e4",
+      "bytes": 3530
+    },
+    "Textura/Configuration/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Configuration/history/v0001/snapshot/README.md": {
+      "sha256": "7a95ae9ff189dabe7d716b9134e248d863f1647ff0e5a39edadad43302468c39",
+      "bytes": 3082
+    },
+    "Textura/Configuration/history/v0001/snapshot/component.json": {
+      "sha256": "57b6aa06dbee53be54a0e0f62d4efbb01eb15c1439c76a5853961a92a3473e82",
+      "bytes": 402
+    },
+    "Textura/Configuration/history/v0001/snapshot/components.json": {
+      "sha256": "c6ddecc45672a6e8941ff1d578ba341a29a8a77ab0043a0a35440f77887a1299",
+      "bytes": 5088
+    },
+    "Textura/Configuration/history/v0001/snapshot/release-manifest.json": {
+      "sha256": "0362f64e12f4b2552d7ad5de22b56161621abe8710e67200ba1d69c461c26c4c",
+      "bytes": 555
+    },
+    "Textura/Configuration/history/v0001/snapshot/settings.json": {
+      "sha256": "98ab0c62bf164b739aa678427289e5377f2af0afb6c68f61c4eb0ee335aebd06",
+      "bytes": 3537
+    },
+    "Textura/Configuration/history/v0001/version.json": {
+      "sha256": "d847954ce8a035faac6e69ce1ff88900261d1e9eceec3d6fe93eddd91c27de40",
+      "bytes": 934
+    },
+    "Textura/Configuration/history/v0001/version.md": {
+      "sha256": "73420168d6e0ea40c4a1342b1642be1453bf7d750ee322e2f6ac5521e7f5f73f",
+      "bytes": 445
+    },
+    "Textura/Contracts/current/README.md": {
+      "sha256": "bc8770592dd0ed6434bedf9bad4e77376a534a4155df1eeb4ad384e6072723ee",
+      "bytes": 1084
+    },
+    "Textura/Contracts/current/component.json": {
+      "sha256": "c28a6f0e670ae91fded1fac98b70f3c77e775f905e49ab63fa6d3e05d1f05448",
+      "bytes": 402
+    },
+    "Textura/Contracts/current/record-contracts.md": {
+      "sha256": "30523d3bcb4dacd9e74fda059ebfdc53103a7b0e5c3c1a42e53104921460fbe7",
+      "bytes": 4512
+    },
+    "Textura/Contracts/current/release-manifest.json": {
+      "sha256": "e7d35af5e2e387f047085d6c2b940a9b10bf221450b5cb093038c2f233a2d4f3",
+      "bytes": 654
+    },
+    "Textura/Contracts/current/storage.py": {
+      "sha256": "3bd7822df77c656b788901205b9ca247a8fadfc77f9c3c08e8e684fce17bc147",
+      "bytes": 4265
+    },
+    "Textura/Contracts/current/style-fiction-contracts.md": {
+      "sha256": "b35c0bd5f55277ac5998fc67c277a431d1cd9c65ae2cd8cecd716a627d31568a",
+      "bytes": 6117
+    },
+    "Textura/Contracts/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Evidence/current/README.md": {
+      "sha256": "1fab9a9316bcf7e009a4dac8ede00f1e38ff3747046000047cb118bdbdb839be",
+      "bytes": 2703
+    },
+    "Textura/Evidence/current/component.json": {
+      "sha256": "00d5c5d2dce30c5d718a43b3f6cbcede156c4c8c987fcbadf93a2753d98086a1",
+      "bytes": 430
+    },
+    "Textura/Evidence/current/evidence.py": {
+      "sha256": "982daf14ab5680728a83f2b6a6b0dcb3a431c5bf4a794f28097c3292a4299d1a",
+      "bytes": 5639
+    },
+    "Textura/Evidence/current/release-manifest.json": {
+      "sha256": "1f60ecfc64017b5aeb3f9af688d31bdd8f137b9f948660f8f1819c8d517af9d7",
+      "bytes": 457
+    },
+    "Textura/Evidence/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Feedback/current/README.md": {
+      "sha256": "8394966b7441f8633e3c035a889246bb10fb47e60e812283749336f67c46e87d",
+      "bytes": 483
+    },
+    "Textura/Feedback/current/component.json": {
+      "sha256": "6a52600efd6773ee6f56a38fb9133f7383a074f90a2aaad9edf9f349b65229b7",
+      "bytes": 415
+    },
+    "Textura/Feedback/current/feedback-note.template.md": {
+      "sha256": "27fea69c065a4a591616578a04e3682215da42a3b41fa3cdcede25e062ee6e5a",
+      "bytes": 838
+    },
+    "Textura/Feedback/current/protocol.md": {
+      "sha256": "729e2b44ed4d6cffdbe393b1c9c57df99736bfb69c9211c0d5c37c6de330bc09",
+      "bytes": 1338
+    },
+    "Textura/Feedback/current/release-manifest.json": {
+      "sha256": "b131c2866453598c52ceac0cec153bc6a5aba2300db08c8285695b4c96e5c3a6",
+      "bytes": 558
+    },
+    "Textura/Feedback/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Fiction/current/README.md": {
+      "sha256": "7c959513f694b6fdfe883ca9bfb7b10a0d73cbcddb9808457ca4e10df28e267c",
+      "bytes": 5540
+    },
+    "Textura/Fiction/current/change-impact.template.md": {
+      "sha256": "83ad4c3158aa565ebe9cb06d4d1f9274d57ff45e0450fc42f683b2ea354f5bed",
+      "bytes": 2148
+    },
+    "Textura/Fiction/current/component.json": {
+      "sha256": "50be31cb1df2d7d72c9be870219fed71ec7c590b7a462eb9b0589c298f922bea",
+      "bytes": 522
+    },
+    "Textura/Fiction/current/continuity.template.md": {
+      "sha256": "af4bfbcefed0cc1bded428f42da2b3080094b0de3ed1baadad5c2faf680b1f03",
+      "bytes": 2930
+    },
+    "Textura/Fiction/current/protocol.md": {
+      "sha256": "b2a518d404db1ab3fcb1c69808474b3e69a068a48d7074193f4e2750245e597b",
+      "bytes": 10132
+    },
+    "Textura/Fiction/current/release-manifest.json": {
+      "sha256": "4d99e2129c03053124c982a589394a59bae4885cb983bbca3faa82252d829402",
+      "bytes": 854
+    },
+    "Textura/Fiction/current/review-context.template.md": {
+      "sha256": "26e74d0ccd51eb70b854d5e7b4fa39fef79edc6b7e8a473773f35d3c6828e3c1",
+      "bytes": 3066
+    },
+    "Textura/Fiction/current/story-map.template.md": {
+      "sha256": "9551dd66460fa4a17598a3470be070fa7db4c9163cbcd0b7b19b2cc8cee331ad",
+      "bytes": 2362
+    },
+    "Textura/Fiction/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Governance/current/AGENTS.md": {
+      "sha256": "fe88ca2329bb00e93619e5383607c6262b73e69a1f48076e89952327896abeb1",
+      "bytes": 9342
+    },
+    "Textura/Governance/current/README.md": {
+      "sha256": "7e22af929a6304b4dc6c44102a6e31b366f8394b6eb17d5964c086928947a2eb",
+      "bytes": 4000
+    },
+    "Textura/Governance/current/architecture.md": {
+      "sha256": "56dc00dbc8d8da7cc472ea24a3f14c1e33f07aa14ad88637915474f2dc978b73",
+      "bytes": 6827
+    },
+    "Textura/Governance/current/component.json": {
+      "sha256": "5d12d4b97fd4cd52db35f5e679992d296c3b4694abb9a1b5442d9cafcfb4f4ce",
+      "bytes": 386
+    },
+    "Textura/Governance/current/decisions.md": {
+      "sha256": "5e2a585db84909a79d1ef756ae6adad5ad13db33b02125c047a6b781f291d92a",
+      "bytes": 4848
+    },
+    "Textura/Governance/current/references.md": {
+      "sha256": "6101516d5321ac952ea486ea24e3b7f55dfe7e7a2028e5142afdb70981266f37",
+      "bytes": 1553
+    },
+    "Textura/Governance/current/release-manifest.json": {
+      "sha256": "ee834392fc5b4be54cd0f1ce75afcb7d3ebf3bbd3a78927fa775e0c8f2419681",
+      "bytes": 1224
+    },
+    "Textura/Governance/current/release-pending.md": {
+      "sha256": "9955735b4de2cf9c0f27342e9625e885a4df7c9b1a5b5745c95e706038333d5d",
+      "bytes": 961
+    },
+    "Textura/Governance/current/storage-and-versioning.md": {
+      "sha256": "47956a1f39003dc8681be2939d14d2a962c5036f6c3a07ea01f2a3554ee73351",
+      "bytes": 5213
+    },
+    "Textura/Governance/current/style-fiction-decisions.md": {
+      "sha256": "125dca5b93cb769801335a7b8faea52d50f96aab8c3918fc6429a03b18a4f8e1",
+      "bytes": 3838
+    },
+    "Textura/Governance/current/style-fiction-design.md": {
+      "sha256": "4d866ae065e4dc63564ed181709b0f2ccf4276288649b6bc8d295b2f6f52fd36",
+      "bytes": 6173
+    },
+    "Textura/Governance/current/style-fiction-open-items.md": {
+      "sha256": "6af5b20cc3e8a96a9243ba281f1989f79f26a77092e06a18a030db4276e5756e",
+      "bytes": 1700
+    },
+    "Textura/Governance/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Governance/history/v0001/snapshot/AGENTS.md": {
+      "sha256": "fe88ca2329bb00e93619e5383607c6262b73e69a1f48076e89952327896abeb1",
+      "bytes": 9342
+    },
+    "Textura/Governance/history/v0001/snapshot/README.md": {
+      "sha256": "47c66efdc6ad46ad106f3dce5deb373babb7bac81d12ffe4181aed498f8b6785",
+      "bytes": 3865
+    },
+    "Textura/Governance/history/v0001/snapshot/architecture.md": {
+      "sha256": "56dc00dbc8d8da7cc472ea24a3f14c1e33f07aa14ad88637915474f2dc978b73",
+      "bytes": 6827
+    },
+    "Textura/Governance/history/v0001/snapshot/component.json": {
+      "sha256": "5d12d4b97fd4cd52db35f5e679992d296c3b4694abb9a1b5442d9cafcfb4f4ce",
+      "bytes": 386
+    },
+    "Textura/Governance/history/v0001/snapshot/decisions.md": {
+      "sha256": "1c2a17a0cbc83b3d051de8b888b141c988082a9bf07e967f4937175349d1c1cc",
+      "bytes": 4814
+    },
+    "Textura/Governance/history/v0001/snapshot/references.md": {
+      "sha256": "6101516d5321ac952ea486ea24e3b7f55dfe7e7a2028e5142afdb70981266f37",
+      "bytes": 1553
+    },
+    "Textura/Governance/history/v0001/snapshot/release-manifest.json": {
+      "sha256": "dd500c229aef803f5f15a41ebe6c574a17d4be1e0bbf251ff829f6f540d8b0ac",
+      "bytes": 1224
+    },
+    "Textura/Governance/history/v0001/snapshot/release-pending.md": {
+      "sha256": "ea314c9bd5a7bef3673c752c75b125c7b2cf216c040a721c908601fd77d3ed01",
+      "bytes": 547
+    },
+    "Textura/Governance/history/v0001/snapshot/storage-and-versioning.md": {
+      "sha256": "47956a1f39003dc8681be2939d14d2a962c5036f6c3a07ea01f2a3554ee73351",
+      "bytes": 5213
+    },
+    "Textura/Governance/history/v0001/snapshot/style-fiction-decisions.md": {
+      "sha256": "125dca5b93cb769801335a7b8faea52d50f96aab8c3918fc6429a03b18a4f8e1",
+      "bytes": 3838
+    },
+    "Textura/Governance/history/v0001/snapshot/style-fiction-design.md": {
+      "sha256": "4d866ae065e4dc63564ed181709b0f2ccf4276288649b6bc8d295b2f6f52fd36",
+      "bytes": 6173
+    },
+    "Textura/Governance/history/v0001/snapshot/style-fiction-open-items.md": {
+      "sha256": "0e661e541ee674889935487c613fb3a8f29c7c87492b0a68c03d2986624a08af",
+      "bytes": 1622
+    },
+    "Textura/Governance/history/v0001/version.json": {
+      "sha256": "9d0ea678e8c86b81e86e8280cb84a253cfa05d8cfa2f14a93bc0805ad4ffab29",
+      "bytes": 1625
+    },
+    "Textura/Governance/history/v0001/version.md": {
+      "sha256": "bce2ff6a6658f5fc1d7674bc781d4b7726277528eddcfe87047ebd60b02a85d5",
+      "bytes": 464
+    },
+    "Textura/LibraryBridge/current/README.md": {
+      "sha256": "4e5f947d199018d891449c914950e9a8b3376e470bcd10d29b99ea251d347ff6",
+      "bytes": 2160
+    },
+    "Textura/LibraryBridge/current/component.json": {
+      "sha256": "7b0fbb709d28ab56d0eeb9fce3d467aa2846fc1bf9d22af8c1925c8a1ba623e3",
+      "bytes": 454
+    },
+    "Textura/LibraryBridge/current/library_bridge.py": {
+      "sha256": "e0125b27ae3b7f7e89953dbca0e00e8b5a8d1e8583da926ba9c82bc5c03c9db1",
+      "bytes": 2744
+    },
+    "Textura/LibraryBridge/current/outgoing-template.json": {
+      "sha256": "107c04c7fa0f6a7745ec780fd333cc95bd82fbf417c89b4447189f199c9112b8",
+      "bytes": 562
+    },
+    "Textura/LibraryBridge/current/release-manifest.json": {
+      "sha256": "d12d2eb4624405bdf40798b54805e0f7418c760d1e47115726fb8ea29f138b90",
+      "bytes": 782
+    },
+    "Textura/LibraryBridge/current/shared-setting-interface.md": {
+      "sha256": "2859b986a3d5152d1d4ac0d6d14cd32682d866b3278ce9085e7823450d7f89ce",
+      "bytes": 4038
+    },
+    "Textura/LibraryBridge/current/shared-setting-outgoing.template.json": {
+      "sha256": "af67b8a36cbc5f1d209744c64b95de401b512e7f9e7960e1f3b46e7777e74ca4",
+      "bytes": 871
+    },
+    "Textura/LibraryBridge/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Publishing/current/README.md": {
+      "sha256": "be7f0efa5354478a3bca932bf06968e244e70999b7d2853555946d89aea41f7b",
+      "bytes": 692
+    },
+    "Textura/Publishing/current/component.json": {
+      "sha256": "eaf2ca70545f84184c4da3ef65a0cc1793367381d15062f8ff74343bd48300a3",
+      "bytes": 421
+    },
+    "Textura/Publishing/current/protocol.md": {
+      "sha256": "0c2beecbba1ebd13bd505d76e9e101bf4fbd35e2a52346f2a7668e1abc5704d8",
+      "bytes": 3788
+    },
+    "Textura/Publishing/current/publication-package.template.md": {
+      "sha256": "957654697db8b680cc4906db6bb4771b957fea8f419aeb481a5c2641a404788a",
+      "bytes": 2078
+    },
+    "Textura/Publishing/current/release-manifest.json": {
+      "sha256": "3c4f71c4787f6f156ce399b2f5e7a06422d97e100cc57c2af9b6f86226bb3053",
+      "bytes": 566
+    },
+    "Textura/Publishing/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Quality/current/README.md": {
+      "sha256": "18e718a8aa55809170fe0d4a803b3d3c3709bedefa39b96afef44b355f2ad87a",
+      "bytes": 1823
+    },
+    "Textura/Quality/current/component.json": {
+      "sha256": "c69c5cc36e29b0f028fd767d4d6b887f1c3acd9ada035ef512f8df92ac2ffa2e",
+      "bytes": 384
+    },
+    "Textura/Quality/current/release-manifest.json": {
+      "sha256": "63cd9ab632e47280b08f1006002d266df294c0482e2f24e03ef9239c647588c0",
+      "bytes": 753
+    },
+    "Textura/Quality/current/run_checks.py": {
+      "sha256": "7cf70f91be50e504316ab75bbb7c1559bac4ff21c917baef7aca2d392cda7aff",
+      "bytes": 4020
+    },
+    "Textura/Quality/current/tests/test_cli.py": {
+      "sha256": "b579d34b33dea039fc506e432166d146dcae9b154bc4c6ae19fdf8a84f0c2c82",
+      "bytes": 13845
+    },
+    "Textura/Quality/current/tests/test_public_edition.py": {
+      "sha256": "dc405e095bb4c9fd748deb2caefaaa5f00b14135acdea1b8b37b34e632624b4f",
+      "bytes": 4890
+    },
+    "Textura/Quality/current/tests/test_workflow.py": {
+      "sha256": "e6920dae06a263e7c50baf4562dbd33a4c562e0ee14c32f53bb482ac75ef6fd2",
+      "bytes": 19277
+    },
+    "Textura/Quality/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Reading/current/README.md": {
+      "sha256": "d9e9b92de33fc42149ef7b03ab80e3bf8462f8daae87e4c321a8bbcdac3cc3bc",
+      "bytes": 5424
+    },
+    "Textura/Reading/current/component.json": {
+      "sha256": "32f176fb444b378c00d54f98bc3c81297620e79dec8603295f3e3e86f46ee5db",
+      "bytes": 378
+    },
+    "Textura/Reading/current/readers.py": {
+      "sha256": "b405b7292f4e1a67224b2711acf9302f15198ede85deee7d7a07c33856d74424",
+      "bytes": 21100
+    },
+    "Textura/Reading/current/release-manifest.json": {
+      "sha256": "fcb911f8ef6a66da2dea92392cab03fa24d0ea2bccc371cc69205aa9617c39b8",
+      "bytes": 552
+    },
+    "Textura/Reading/current/tests/test_readers.py": {
+      "sha256": "b4fa26ff8b65e723a089442821298a5c0785cc708425227613547e93da19a346",
+      "bytes": 11505
+    },
+    "Textura/Reading/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Research/current/README.md": {
+      "sha256": "6a5004729fcd106773fc9803c6c3275e86e654aabf4ca8fd72ed5a179d2fa5bb",
+      "bytes": 704
+    },
+    "Textura/Research/current/component.json": {
+      "sha256": "23fef0ba080fcf6e2536559f51d16c435385931ffe5533cf799b06534541bebe",
+      "bytes": 428
+    },
+    "Textura/Research/current/protocol.md": {
+      "sha256": "e056be648fe836cbe63df61b86da9ce906210f96c5881019249f5c8b4cde0bd2",
+      "bytes": 2184
+    },
+    "Textura/Research/current/release-manifest.json": {
+      "sha256": "956cda86852d52dd8ef2a244324fbeac27a47a2f9576dc2da9ef983c28dc6128",
+      "bytes": 559
+    },
+    "Textura/Research/current/research-brief.template.md": {
+      "sha256": "69d1ae7db5ab8dd102ace22c9b9bf5a645f2ea1ec3978725a31238ed7c3a6786",
+      "bytes": 1210
+    },
+    "Textura/Research/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Review/current/README.md": {
+      "sha256": "50332dec8d77115a6f5c7404b940aaac73c035c4a0935d07c26dfaed5b489840",
+      "bytes": 8758
+    },
+    "Textura/Review/current/component.json": {
+      "sha256": "651214d22c6215643673698f60634ad6042e50b540f4e74c32578d770b099768",
+      "bytes": 440
+    },
+    "Textura/Review/current/fiction-review-context.template.md": {
+      "sha256": "3e898dd3269c6df3dc4e6e5ea59e0832a5e843df103a014e0d7266a380d0cf02",
+      "bytes": 1382
+    },
+    "Textura/Review/current/fiction-review-protocol.md": {
+      "sha256": "57c572cd0873b8f7e625488e4487f6b49a9051527836ae630fc05baac00afce2",
+      "bytes": 3667
+    },
+    "Textura/Review/current/release-manifest.json": {
+      "sha256": "e8cbfc7f578ad818f921f6c31cac6993577f94e30ff5a2d09ded582d2e2845ce",
+      "bytes": 761
+    },
+    "Textura/Review/current/review.py": {
+      "sha256": "6151aaa7d27fbe4413099dc8abf654637b81c444ae46898ca1e26ed915651e40",
+      "bytes": 22565
+    },
+    "Textura/Review/current/tests/test_review.py": {
+      "sha256": "5aaa877372ade40c827673fa03c96e67da944a3ffc7aa0f604f53a6465da0075",
+      "bytes": 11580
+    },
+    "Textura/Review/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Runner/current/COMMAND.md": {
+      "sha256": "c381a93bae82bfc68b926ccfb0333a85e01190b41c1b1f4691ec808ffc38dc3b",
+      "bytes": 6597
+    },
+    "Textura/Runner/current/README.md": {
+      "sha256": "aa3c22cc02bac5a363c8ee5926295204470b0188fc3c973286e80c0b6446f493",
+      "bytes": 1607
+    },
+    "Textura/Runner/current/component.json": {
+      "sha256": "97dce28752fe91573a166c66b41266d46becf34a88edeb720f10766cdb5aecbf",
+      "bytes": 536
+    },
+    "Textura/Runner/current/maintenance.py": {
+      "sha256": "19ceab31f2d01438bf48780cb3d012efb6f0aa52143d224f649011ae1a57a756",
+      "bytes": 9308
+    },
+    "Textura/Runner/current/release-manifest.json": {
+      "sha256": "dfc1c385a3ba67f0953309aa6592b590fb8fa3d0d49ff25f6142fa4490ee593a",
+      "bytes": 717
+    },
+    "Textura/Runner/current/textura.ps1": {
+      "sha256": "69f6903099816e089e96a6fa86f041e2432259530bbf2d1c9733f610eca971ec",
+      "bytes": 625
+    },
+    "Textura/Runner/current/textura.py": {
+      "sha256": "5fb664f6181993fddc27687a48702b9bf147ada01d14648894b6d6150a51a7ff",
+      "bytes": 9115
+    },
+    "Textura/Runner/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Sources/current/README.md": {
+      "sha256": "7c2d7f425aafebdb6c952d4e24cb3bc8f602e68633559af0bf6003d92257fb27",
+      "bytes": 1230
+    },
+    "Textura/Sources/current/component.json": {
+      "sha256": "fbe39909ad9a8fbce084e4cafcfa030bd1ac887759da10778109dd23a25c281c",
+      "bytes": 415
+    },
+    "Textura/Sources/current/release-manifest.json": {
+      "sha256": "553906956b5f50d5c4d3532c30f6e269ba6d82314b95497d964eb1e223d7235d",
+      "bytes": 455
+    },
+    "Textura/Sources/current/sources.py": {
+      "sha256": "98b417adf8d9c89b89a0573069837df46fb63b6a96a6dc5911f10b919adec9a3",
+      "bytes": 3711
+    },
+    "Textura/Sources/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/State/current/README.md": {
+      "sha256": "1eb0e936e18db04b493299937a1682adc99d79f66abc59f6c0b46326a617d4cb",
+      "bytes": 2437
+    },
+    "Textura/State/current/component.json": {
+      "sha256": "667390dd2921ec0102d33683268453c23021643aa4cb4f3e08519eb617db8066",
+      "bytes": 409
+    },
+    "Textura/State/current/release-manifest.json": {
+      "sha256": "50ab0d94115efa0a515f32681326948ae85eef9f7e05b09b7970a5d46d4e67db",
+      "bytes": 459
+    },
+    "Textura/State/current/state_records.py": {
+      "sha256": "c44e29855fb7144af7941ec4118e08e19322958b9dfe5eeb85514102a72dd389",
+      "bytes": 3041
+    },
+    "Textura/State/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Style/current/README.md": {
+      "sha256": "4bc287550ec62a07ff58f57d921e41db0dad237b8d52c687ae4994b4134594b2",
+      "bytes": 3433
+    },
+    "Textura/Style/current/component.json": {
+      "sha256": "dd512bf47314fa6fa657ca3d2c0a4132d2b5389a22e1e8d570606fbd71190f87",
+      "bytes": 448
+    },
+    "Textura/Style/current/free-verse-reading.template.md": {
+      "sha256": "bfccd62aa8be6a565d5923081256465d63b8b27242dcdb601acbc45fcb1b9d30",
+      "bytes": 890
+    },
+    "Textura/Style/current/practice.template.md": {
+      "sha256": "d29ee8db63d210f00087ac9655c4d6293a27335bf748ddd5e8e2455eac7ebcd9",
+      "bytes": 1437
+    },
+    "Textura/Style/current/protocol.md": {
+      "sha256": "d54f5537071bc8bfb6c55894af37f58608c38a670410cdca1409064645cbf7ec",
+      "bytes": 7430
+    },
+    "Textura/Style/current/reference-study.template.md": {
+      "sha256": "e2ec278ba37fa8b3bf051184b32dea03ce189b547fd66ce63442ae15870048b5",
+      "bytes": 1563
+    },
+    "Textura/Style/current/release-manifest.json": {
+      "sha256": "99d8cb51e6e4b0b0d7c02f0fd890367d48d0dde4d68baaccba4c41adf5798a4d",
+      "bytes": 1062
+    },
+    "Textura/Style/current/sample-selection.template.md": {
+      "sha256": "4841de0c44d022e5adc9ceb7ef0c125c99c7ab308bad2b3a23e3fbb5acace3ba",
+      "bytes": 1171
+    },
+    "Textura/Style/current/statistics.template.md": {
+      "sha256": "992051d3c41c0b89d0c3bd3f61d65783b750b9406aa8a2086209f8a638ebdf60",
+      "bytes": 1382
+    },
+    "Textura/Style/current/style-profile.template.md": {
+      "sha256": "459245eb8479170cccdfa3ba7136830559d34e17821707042c746bff5120f032",
+      "bytes": 1634
+    },
+    "Textura/Style/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Topics/current/README.md": {
+      "sha256": "723f1ab62c47f97b5bcd36d505915621285157187c99e7538d459dbe9bf9de94",
+      "bytes": 983
+    },
+    "Textura/Topics/current/component.json": {
+      "sha256": "c7919cfb4d1e9ca476a89048e40179bbb69f86395e8ce2ceced4895bce4fb32f",
+      "bytes": 393
+    },
+    "Textura/Topics/current/release-manifest.json": {
+      "sha256": "4e5c6208cc2fe15dfd912f06e7d5bb4b187608cde39019bcc865dd7b61691424",
+      "bytes": 453
+    },
+    "Textura/Topics/current/topics.py": {
+      "sha256": "1c9d6e82e147821e4181591c7eb055a982279320ad9c5cdd6dc975a5f5eb5f60",
+      "bytes": 1201
+    },
+    "Textura/Topics/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Translation/current/README.md": {
+      "sha256": "b01c43a17d193f7625b6c5bf9b6c8df7d869d5f1085188875d2664b750ae8743",
+      "bytes": 596
+    },
+    "Textura/Translation/current/component.json": {
+      "sha256": "d12bea3376a74f5706adb17e84f02dd99464ccc8496305517080ffe27112c932",
+      "bytes": 413
+    },
+    "Textura/Translation/current/protocol.md": {
+      "sha256": "f0dadb52f30b7f3af50617bbb2f41ac73af6ce34f57a86be2ee34502cd042a5b",
+      "bytes": 2307
+    },
+    "Textura/Translation/current/release-manifest.json": {
+      "sha256": "c29313028a06454ddedf477a9599ab3ed569fff2e0c8f022cabbcadfd6d4dd23",
+      "bytes": 564
+    },
+    "Textura/Translation/current/translation-note.template.md": {
+      "sha256": "01e723e29010cf981a106c99e8fe274b05521a8f84c1cad2a43a3dc8cd220229",
+      "bytes": 1225
+    },
+    "Textura/Translation/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "Textura/Writing/current/README.md": {
+      "sha256": "1c12f421866de8ab9d9df9da767cb9f7d4ab3dd0bceb0b3fe82a397987410b56",
+      "bytes": 3309
+    },
+    "Textura/Writing/current/component.json": {
+      "sha256": "b40ccfe7fa9f920e820ec6b308adea8d8103dd759bbe3f232d9f61fbdd92c44c",
+      "bytes": 420
+    },
+    "Textura/Writing/current/release-manifest.json": {
+      "sha256": "65082dd323a3a9912c2d5cb1db1edbabf95d89d981fc1ce4e8b65ee1f364e320",
+      "bytes": 455
+    },
+    "Textura/Writing/current/writing.py": {
+      "sha256": "a70d38dc4de7fd27165888b98d88510ab59d524e0ce75879a69db90339abf0d8",
+      "bytes": 2845
+    },
+    "Textura/Writing/history/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "VALIDATION.md": {
+      "sha256": "fec1845f6fd073a37ccefd68899bd996e7504d2534ba6af689da65d4d5e9333a",
+      "bytes": 3355
+    }
+  }
+}

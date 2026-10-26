@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "name": "Quality",
+  "version": "0.1.0",
+  "purpose": "Tests and audit receipts",
+  "execution_mode": "verification",
+  "depends_on": [
+    "Runner"
+  ],
+  "current": "current",
+  "history": "history",
+  "entry": "README.md",
+  "runtime_data": "records",
+  "ownership": "This component owns its definitions, records, output and historical snapshots."
+}

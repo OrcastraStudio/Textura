@@ -1,0 +1,11 @@
+{
+  "component": "Topics",
+  "version": "0.1.0",
+  "sealed_at": "2026-10-02T06:06:12+00:00",
+  "scope": "Definition files only; excludes runtime records, outputs and caches",
+  "files": {
+    "component.json": "c7919cfb4d1e9ca476a89048e40179bbb69f86395e8ce2ceced4895bce4fb32f",
+    "README.md": "723f1ab62c47f97b5bcd36d505915621285157187c99e7538d459dbe9bf9de94",
+    "topics.py": "1c9d6e82e147821e4181591c7eb055a982279320ad9c5cdd6dc975a5f5eb5f60"
+  }
+}
