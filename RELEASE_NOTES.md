@@ -1,5 +1,11 @@
 # Source edition changes — Textura 0.1.2
 
+## v0.1.2-rc.1 public preview (2026-10-26)
+
+Published [v0.1.2-rc.1](https://github.com/OrcastraStudio/Textura/releases/tag/v0.1.2-rc.1) as a Pre-release from `fce94bd7f4f6310510415a030170db186ae7ef82`. The attached ZIP contains exactly that commit's 198 tracked files. Its manifest and SHA256 checksums were verified after public download. The extracted source passed 63 tests with 1 symbolic-link-related skip on Windows/Python 3.12.14. No functional code changed for this release.
+
+This later main-branch documentation update records the completed publication and preserves Governance's prior definitions in history/v0003. It does not move the tag or replace the released assets. Earlier sections record the preparation state at their respective checks.
+
 ## Public source publication and maintenance (2026-10-26)
 
 The first public source publication was completed and verified on `main` at [OrcastraStudio/Textura](https://github.com/OrcastraStudio/Textura), starting with commit [0e320cc](https://github.com/OrcastraStudio/Textura/commit/0e320cc2fe3454c7f6768e1bad81a80d05a37054). MIT and OrcastraStudio attribution are in effect. No tag or published GitHub Release exists as of the status check; formal release decisions remain open.

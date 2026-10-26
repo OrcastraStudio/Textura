@@ -4,7 +4,7 @@
   "base_release": "0.1.2",
   "edition": "git-publication-r2",
   "license_status": "MIT",
-  "prepared_at": "2026-10-26T21:24:10.200780+00:00",
+  "prepared_at": "2026-10-26T21:48:55.556656+00:00",
   "entry": "README.md",
   "installation": "Textura",
   "scope": "Public file hashes except MANIFEST.json; Git metadata and runtime records/outputs/caches excluded",
@@ -22,8 +22,8 @@
       "bytes": 308
     },
     "CHANGELOG.md": {
-      "sha256": "473e713bdc4eb3e1db7b6a74c65790663c297acaf2ef85cd661d58c6a3d2a130",
-      "bytes": 2688
+      "sha256": "bc394cbdd11d607eaccd0aa7e3fe5ec888b90bd4674193b0471e5cc07314f67f",
+      "bytes": 3403
     },
     "CODE_OF_CONDUCT.md": {
       "sha256": "e714cf86ee4683754bf72df0d08cd11683bca73e40e48d56f6ac3dc5b99e9074",
@@ -34,8 +34,8 @@
       "bytes": 1982
     },
     "GIT_VALIDATION.md": {
-      "sha256": "234fbaee25eff45c8280edaf778e8a8e6df2abf4ed6f7b0583e4008f859f8386",
-      "bytes": 5193
+      "sha256": "2e91e4ee5ad6bd9122b4a8b8fcad830d03e138e102b75610e1f47d61b8f48f8e",
+      "bytes": 6343
     },
     "ISSUE_TEMPLATE/bug_report.md": {
       "sha256": "b3501e2ae3400ceb9e23b1ee7691eccf10f957cc7431fdf2a36690a33da444b8",
@@ -58,28 +58,28 @@
       "bytes": 3207
     },
     "PENDING_DECISIONS.md": {
-      "sha256": "d340d1fd5c1463d2e30b470b337f75510c1aeb16f4671d89ef476fcc5703ff61",
-      "bytes": 3094
+      "sha256": "8a024126fe0e53364f7bb28220f70912e6c2677175bdd23f057a96b917d3f435",
+      "bytes": 3356
     },
     "PUBLISHING.md": {
-      "sha256": "48c473e2fbeaf1f651feccd412017d8145da9458a02f5e34afc9a6a20da94345",
-      "bytes": 6188
+      "sha256": "7126417660f8c32ae5e708ffb050bcabdb17ff5254298a5830ab85e0109d0a24",
+      "bytes": 6371
     },
     "PULL_REQUEST_TEMPLATE.md": {
       "sha256": "ec24c17df57d807afe322aea8934850070b7dd42a674522645a06da4213dada0",
       "bytes": 764
     },
     "README.md": {
-      "sha256": "a4e38be532900d676dbec1c984c6013634dcf2d51c5a8b4dc9636640023dcd7b",
-      "bytes": 6549
+      "sha256": "ae2f3b8b1796a006c7b02dca025614c1338284575a66ca48fd7f989acc58162f",
+      "bytes": 6876
     },
     "RELEASE_DESCRIPTION.md": {
-      "sha256": "36b6ceb7784b6d166686340d3e5ca7520368574305b97176af5c54b001d8cb3b",
-      "bytes": 2080
+      "sha256": "8e3a591ed44436815a9d6500604589de9996202b7c33678908e932cbc6339b56",
+      "bytes": 2389
     },
     "RELEASE_NOTES.md": {
-      "sha256": "63832588ade2d1efe4ab883d11f4197fda5f1b08334564e1d41809c43239578a",
-      "bytes": 3562
+      "sha256": "aed7c39af9810a6004e93bfb0bfa96a6327b471d3268b00dd8de99325b79f0f4",
+      "bytes": 4319
     },
     "REPOSITORY_DESCRIPTION.md": {
       "sha256": "6c15e9d859342edf05f24b26a5057cb1b420f0be1e36127116b6d89217fa3984",
@@ -286,8 +286,8 @@
       "bytes": 9342
     },
     "Textura/Governance/current/README.md": {
-      "sha256": "2256e18724f76e786adf4822300e3470a9cb95acd28150875e599760302caa30",
-      "bytes": 4154
+      "sha256": "ac9c6bca234ea6d594827214b696b31d274c9dc3c40de856990bf02e405774ef",
+      "bytes": 4264
     },
     "Textura/Governance/current/architecture.md": {
       "sha256": "56dc00dbc8d8da7cc472ea24a3f14c1e33f07aa14ad88637915474f2dc978b73",
@@ -306,12 +306,12 @@
       "bytes": 1553
     },
     "Textura/Governance/current/release-manifest.json": {
-      "sha256": "fa0db26dfb4efadaff21707a3ff6cdb9fe2b3513e992dfabe7f1c313e0f1a9b2",
+      "sha256": "2cbc0752a64c0eff7298f3d746ad6dc829dd7cdc83d80d7013c1c43b5ca38bf3",
       "bytes": 1224
     },
     "Textura/Governance/current/release-pending.md": {
-      "sha256": "7d1edc3e14904de4f5b6406b5d39fd7d1bd4796527841d21f2c075b73982963e",
-      "bytes": 1366
+      "sha256": "a51d7dea7cd967b130e0e673e4f5c8ad3b43809588faba3c14c3b1096c6ec1cb",
+      "bytes": 1694
     },
     "Textura/Governance/current/storage-and-versioning.md": {
       "sha256": "47956a1f39003dc8681be2939d14d2a962c5036f6c3a07ea01f2a3554ee73351",
@@ -326,8 +326,8 @@
       "bytes": 6173
     },
     "Textura/Governance/current/style-fiction-open-items.md": {
-      "sha256": "9109567778173f285d2b8a5bcdc581d1c6787db4a18c3a2d34b9eefb58aa6b26",
-      "bytes": 1758
+      "sha256": "42634af82c934bdedaf2130391c31e636df8adf411a519ead0517ccd604195d5",
+      "bytes": 1738
     },
     "Textura/Governance/history/.gitkeep": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -444,6 +444,62 @@
     "Textura/Governance/history/v0002/version.md": {
       "sha256": "1f6ebde8c6e039ff4848e35315f4d8d8d1c9f9dfd49ba03cf1483be12e3b855f",
       "bytes": 464
+    },
+    "Textura/Governance/history/v0003/snapshot/AGENTS.md": {
+      "sha256": "fe88ca2329bb00e93619e5383607c6262b73e69a1f48076e89952327896abeb1",
+      "bytes": 9342
+    },
+    "Textura/Governance/history/v0003/snapshot/README.md": {
+      "sha256": "2256e18724f76e786adf4822300e3470a9cb95acd28150875e599760302caa30",
+      "bytes": 4154
+    },
+    "Textura/Governance/history/v0003/snapshot/architecture.md": {
+      "sha256": "56dc00dbc8d8da7cc472ea24a3f14c1e33f07aa14ad88637915474f2dc978b73",
+      "bytes": 6827
+    },
+    "Textura/Governance/history/v0003/snapshot/component.json": {
+      "sha256": "5d12d4b97fd4cd52db35f5e679992d296c3b4694abb9a1b5442d9cafcfb4f4ce",
+      "bytes": 386
+    },
+    "Textura/Governance/history/v0003/snapshot/decisions.md": {
+      "sha256": "5e2a585db84909a79d1ef756ae6adad5ad13db33b02125c047a6b781f291d92a",
+      "bytes": 4848
+    },
+    "Textura/Governance/history/v0003/snapshot/references.md": {
+      "sha256": "6101516d5321ac952ea486ea24e3b7f55dfe7e7a2028e5142afdb70981266f37",
+      "bytes": 1553
+    },
+    "Textura/Governance/history/v0003/snapshot/release-manifest.json": {
+      "sha256": "fa0db26dfb4efadaff21707a3ff6cdb9fe2b3513e992dfabe7f1c313e0f1a9b2",
+      "bytes": 1224
+    },
+    "Textura/Governance/history/v0003/snapshot/release-pending.md": {
+      "sha256": "7d1edc3e14904de4f5b6406b5d39fd7d1bd4796527841d21f2c075b73982963e",
+      "bytes": 1366
+    },
+    "Textura/Governance/history/v0003/snapshot/storage-and-versioning.md": {
+      "sha256": "47956a1f39003dc8681be2939d14d2a962c5036f6c3a07ea01f2a3554ee73351",
+      "bytes": 5213
+    },
+    "Textura/Governance/history/v0003/snapshot/style-fiction-decisions.md": {
+      "sha256": "125dca5b93cb769801335a7b8faea52d50f96aab8c3918fc6429a03b18a4f8e1",
+      "bytes": 3838
+    },
+    "Textura/Governance/history/v0003/snapshot/style-fiction-design.md": {
+      "sha256": "4d866ae065e4dc63564ed181709b0f2ccf4276288649b6bc8d295b2f6f52fd36",
+      "bytes": 6173
+    },
+    "Textura/Governance/history/v0003/snapshot/style-fiction-open-items.md": {
+      "sha256": "9109567778173f285d2b8a5bcdc581d1c6787db4a18c3a2d34b9eefb58aa6b26",
+      "bytes": 1758
+    },
+    "Textura/Governance/history/v0003/version.json": {
+      "sha256": "f334bbf8b192257c1eafb3ef20dc10dde43fa67aa949bf2363fe687d42281149",
+      "bytes": 1599
+    },
+    "Textura/Governance/history/v0003/version.md": {
+      "sha256": "a569a5bf5d07c4625e39ceb9cae6e62d71bdedb02abc5cd7c375fcbd796968b8",
+      "bytes": 438
     },
     "Textura/LibraryBridge/current/README.md": {
       "sha256": "4e5f947d199018d891449c914950e9a8b3376e470bcd10d29b99ea251d347ff6",
@@ -794,8 +850,8 @@
       "bytes": 0
     },
     "VALIDATION.md": {
-      "sha256": "a29eb342e35b2566614fc5e841236e7a0145a06784b1dd86bb97efbcd0178c62",
-      "bytes": 4487
+      "sha256": "5ef4fa47daf43bf75ceb86ec3589215aa23f2bf944f4a71d1a0fd593ed5b49e3",
+      "bytes": 5414
     }
   }
 }

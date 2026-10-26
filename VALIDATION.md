@@ -1,5 +1,11 @@
 # Validation scope — Textura 0.1.2
 
+## Tagged pre-release validation (2026-10-26)
+
+For [v0.1.2-rc.1](https://github.com/OrcastraStudio/Textura/releases/tag/v0.1.2-rc.1), a fresh GitHub clone of `fce94bd7f4f6310510415a030170db186ae7ef82` was exported and extracted outside the personal installation. Windows/Python 3.12.14 startup, structural validation and manifest verification passed. Reading passed 18 tests, Review passed 11 and skipped 1 because symbolic-link creation was unavailable, and Quality passed 34: 63 passed, 1 skipped. All 95 component links and 42 outer links resolved. The three published assets were downloaded and their SHA256 hashes verified.
+
+These results apply to the fixed release source with 198 tracked files. The subsequent main-branch publication-record changes affect documentation, Governance history and integrity metadata only; their link, snapshot and manifest checks are separate from this tagged-source acceptance run.
+
 ## Publication-status maintenance (2026-10-26)
 
 After synchronizing the repository and Governance publication-status documents, the existing acceptance suites were re-run on Windows with Python 3.12.14. Reading passed 18 tests; Review passed 11 and skipped 1 because symbolic-link creation was unavailable; Quality passed 34. Total: 63 passed, 1 skipped. The skipped case remains unverified on this host.

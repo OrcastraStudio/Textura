@@ -1,6 +1,6 @@
 # Publishing Textura with Git
 
-The [OrcastraStudio/Textura repository](https://github.com/OrcastraStudio/Textura) is public. Its first source publication was completed and verified on 2026-10-26 on `main`, starting at commit [0e320cc](https://github.com/OrcastraStudio/Textura/commit/0e320cc2fe3454c7f6768e1bad81a80d05a37054); see [verification](GIT_VALIDATION.md). No tag or published GitHub Release exists as of that check. This guide covers subsequent source maintenance and a future formal release.
+The [OrcastraStudio/Textura repository](https://github.com/OrcastraStudio/Textura) is public. Its first source publication was completed and verified on 2026-10-26 on `main`, starting at commit [0e320cc](https://github.com/OrcastraStudio/Textura/commit/0e320cc2fe3454c7f6768e1bad81a80d05a37054); see [verification](GIT_VALIDATION.md). The first tagged preview, [v0.1.2-rc.1](https://github.com/OrcastraStudio/Textura/releases/tag/v0.1.2-rc.1), was published on 2026-10-26 from `fce94bd7f4f6310510415a030170db186ae7ef82`. This guide covers subsequent source maintenance and future releases.
 
 ## 1. Select the publication scope
 
@@ -10,7 +10,7 @@ Only this sanitized source bundle belongs in the repository. ZIP and SHA256SUMS.
 
 ## 2. Confirm the recorded release identity
 
-The author selected MIT, copyright attribution OrcastraStudio, and the public repository OrcastraStudio/Textura. The grant is in [LICENSE](LICENSE); [LICENSE_STATUS.md](LICENSE_STATUS.md) explains its scope. The published source retains the `git-publication-r2` edition identifier; a formal release tag is still undecided.
+The author selected MIT, copyright attribution OrcastraStudio, and the public repository OrcastraStudio/Textura. The grant is in [LICENSE](LICENSE); [LICENSE_STATUS.md](LICENSE_STATUS.md) explains its scope. The source retains the `git-publication-r2` edition identifier. The first public pre-release tag is `v0.1.2-rc.1`; future version identifiers remain maintainer decisions.
 
 License metadata and status documents were updated consistently after preserving Configuration and Governance snapshots. Future component edits require a snapshot before editing, then affected-component seals and validation. Keep remaining support and community-policy decisions explicit in PENDING_DECISIONS.md.
 
@@ -62,7 +62,7 @@ Verify that local and remote `main` match after the push. Do not use force-push 
 
 Copy the short text and topics from REPOSITORY_DESCRIPTION.md. Review and adopt community policies; configure the private reporting route described in SECURITY.md. Issue templates are provided as portable copy-and-paste documents; do not assume a host has enabled a template chooser.
 
-Formal release creation remains pending and requires a maintainer decision. When authorized, create a draft release from the intended tested commit. Choose a tag; v0.1.2-rc.1 is only a suggested candidate identifier. Use RELEASE_DESCRIPTION.md as the body and mark a candidate as a pre-release. Attach the matching archive and checksums. Check licensing, pending decisions and the exact uploaded files before publishing the draft.
+The first pre-release, `v0.1.2-rc.1`, is already published. For a future authorized release, create a draft from the intended tested commit and choose a new, unused tag. Preserve previously published tags and matching assets. Use RELEASE_DESCRIPTION.md as the body and mark a candidate as a pre-release. Attach the matching archive and checksums. Check licensing, pending decisions and the exact uploaded files before publishing the draft.
 
 Official references: [GitHub releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository), [private reporting](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/configure-for-a-repository).
 

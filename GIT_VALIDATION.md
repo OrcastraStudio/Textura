@@ -1,5 +1,13 @@
 # Publication and Git validation
 
+## Published pre-release verification — 2026-10-26
+
+[v0.1.2-rc.1](https://github.com/OrcastraStudio/Textura/releases/tag/v0.1.2-rc.1) was published at 2026-10-26T21:47:15Z with draft=false and prerelease=true. Its annotated tag resolves to `fce94bd7f4f6310510415a030170db186ae7ef82`. A fresh GitHub clone supplied the ZIP's exact 198 tracked files; no personal installation or working-directory inventory was packaged.
+
+The extracted ZIP passed startup, structure, snapshot and manifest checks; the existing acceptance suites passed 63 tests and skipped 1 because symbolic-link creation was unavailable. All 95 component-document links and 42 outer-document links resolved. The source ZIP, MANIFEST.json and SHA256SUMS.txt were downloaded from their public GitHub asset URLs and matched the local SHA256 hashes.
+
+The following main-branch publication-record update adds Governance history/v0003 and refreshes current document seals and the outer manifest. That maintained inventory contains 211 manifest entries, or 212 files including MANIFEST.json. The released tag still contains 198 files; historical counts below retain their original scope.
+
 ## Public repository verification — 2026-10-26
 
 - GitHub's repository API confirms [OrcastraStudio/Textura](https://github.com/OrcastraStudio/Textura) is Public, with default branch `main` and detected license MIT. LICENSE names Copyright (c) 2026 OrcastraStudio.

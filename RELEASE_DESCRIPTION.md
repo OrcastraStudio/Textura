@@ -1,4 +1,6 @@
-# Draft release description — Textura 0.1.2 MIT source edition
+# Release description reference — Textura 0.1.2 MIT source edition
+
+Published preview: [v0.1.2-rc.1](https://github.com/OrcastraStudio/Textura/releases/tag/v0.1.2-rc.1), released on 2026-10-26 from `fce94bd7f4f6310510415a030170db186ae7ef82`. The linked release page contains the actual publication notes, validation scope and downloadable assets. The text below remains a starting point for future release descriptions.
 
 Textura supports author-led multilingual research and writing through a local record system and AI-guided operating protocols for essays, poetry, fiction and game reviews. The source is shared to help readers understand the tools available during the creative process.
 
@@ -10,6 +12,6 @@ Style and long-fiction assistance remain agent-executed protocols and blank temp
 
 Validation details and skipped coverage are documented in VALIDATION.md and GIT_VALIDATION.md. Personal records, source libraries and original private histories are excluded.
 
-The project is licensed under MIT; see [LICENSE](LICENSE) and [license scope](LICENSE_STATUS.md). The [OrcastraStudio/Textura repository](https://github.com/OrcastraStudio/Textura) is public; its initial source publication was verified on 2026-10-26 at commit [0e320cc](https://github.com/OrcastraStudio/Textura/commit/0e320cc2fe3454c7f6768e1bad81a80d05a37054). Formal release naming, support and other open decisions are recorded in PENDING_DECISIONS.md. Review and update this draft against the actual uploaded commit before publishing a release.
+The project is licensed under MIT; see [LICENSE](LICENSE) and [license scope](LICENSE_STATUS.md). The [OrcastraStudio/Textura repository](https://github.com/OrcastraStudio/Textura) is public; its initial source publication was verified on 2026-10-26 at commit [0e320cc](https://github.com/OrcastraStudio/Textura/commit/0e320cc2fe3454c7f6768e1bad81a80d05a37054). Future release naming, support and other open decisions are recorded in PENDING_DECISIONS.md. Adapt this reference to the intended tested commit before publishing a new release.
 
-Suggested candidate tag, if chosen by the maintainer: v0.1.2-rc.1. As of the 2026-10-26 verification, no remote tag or published GitHub Release exists. This file remains a draft for a future formal release.
+The tag v0.1.2-rc.1 is already published and must not be reused for different source content. Future candidates or stable releases need their own selected identifiers.

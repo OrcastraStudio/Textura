@@ -11,6 +11,6 @@ These are capability and configuration questions for future work. They do not bl
 | Statistics engine | Protocol/template only. Languages, metrics, segmentation and dependencies depend on a concrete task. |
 | Actual-work versus practice workflow | Both are available, with no universal priority. Each author chooses. |
 | Paid integrations and costs | No automatic paid model connection is configured. Evaluate against concrete requirements and actual costs. |
-| License and publication | MIT and OrcastraStudio attribution approved; public GitHub source publication verified on 2026-10-26. No remote tag or published GitHub Release exists as of that check. Formal release decisions remain open; see [release status](release-pending.md). |
+| License and publication | MIT and OrcastraStudio attribution approved; public source and v0.1.2-rc.1 pre-release publication verified on 2026-10-26. Stable-release timing and future release decisions remain open; see [release status](release-pending.md). |
 
 Field names and ownership conventions are implementation choices, not aesthetic preferences. Record what was actually executed and keep unresolved matters visible.

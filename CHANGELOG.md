@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.2-rc.1 — Public source preview (2026-10-26)
+
+- Publish [v0.1.2-rc.1](https://github.com/OrcastraStudio/Textura/releases/tag/v0.1.2-rc.1) as a GitHub Pre-release, fixed to `fce94bd7f4f6310510415a030170db186ae7ef82`.
+- Export only the 198 tracked public files, attach the source ZIP, MANIFEST.json and SHA256SUMS.txt, and verify all three public downloads.
+- Validate a freshly cloned and extracted copy: 63 tests passed, 1 skipped because symbolic-link creation was unavailable; 95 component links and 42 outer links resolved.
+- Record publication in a subsequent documentation-only main-branch update, preserving Governance's prior definitions in history/v0003. The release tag and package remain fixed.
+
 ## Public source publication and status synchronization (2026-10-26)
 
 - Record the completed first public source publication at [OrcastraStudio/Textura](https://github.com/OrcastraStudio/Textura), default branch `main`, initial commit [0e320cc](https://github.com/OrcastraStudio/Textura/commit/0e320cc2fe3454c7f6768e1bad81a80d05a37054).
